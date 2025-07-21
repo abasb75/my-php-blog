@@ -1,0 +1,279 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+                    <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=5.0">
+
+        <meta name="subject" content="Personal Web Developer">
+        <meta name="copyright" content="Abas Bagheri">
+        <meta name="language" content='FA'>
+        <meta name="Classification" content="Business">
+        <meta name="author" content='Abbas Bagheri, abasbagheria@gmail.com'>
+        <meta name="url" content="https://abasbagheri.ir/">
+        <meta name="subtitle" content="برنامه نویس و طراحی وب سایت">
+        <meta name="target" content="all">
+        <meta name="revised" content="Sunday, July 29th, 2022, 5:15 pm">
+        <meta name='identifier-URL' content="https://abasbagheri.ir">
+        <meta name="google-site-verification" content="WRx4dyxLMr0lZzfwVv_lNEimc6Q4cu5V12fKX0fubTo" />
+        <meta name="designer" content="عباس باقری">
+        <meta name="reply-to" content="abasbagheria@gmail.com">
+        <meta name="owner" content="عباس باقری">
+
+        <meta name="pagename" content="نوشته‌های عباس باقری - صفحه 3">
+
+        <meta name="category" content="Web Developer"'>
+        <meta name="coverage" content="Worldwide">
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
+
+
+        <meta name="title" content="نوشته‌های عباس باقری - صفحه 3">
+        <meta name="description" content="نوشته‌های عباس باقری برنامه نویس و مهندس نرم‌افزار که برای برنامه نویسان مفید خواهد بود">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://abasbagheri.ir/blog/page/3">
+        <meta property="og:title" content="نوشته‌های عباس باقری - صفحه 3">
+        <meta property="og:description" content="نوشته‌های عباس باقری برنامه نویس و مهندس نرم‌افزار که برای برنامه نویسان مفید خواهد بود">
+        <meta property="og:image" content="/asset/image/logo-ba8.svg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://abasbagheri.ir/blog/page/3">
+        <meta property="twitter:title" content="نوشته‌های عباس باقری - صفحه 3">
+        <meta property="twitter:description" content="نوشته‌های عباس باقری برنامه نویس و مهندس نرم‌افزار که برای برنامه نویسان مفید خواهد بود">
+        <meta property="twitter:image" content="/asset/image/logo-ba8.svg">
+
+        <meta name="robots" content="follow, index"/>
+
+        <title>نوشته‌های عباس باقری - صفحه 3</title>
+
+        
+            <link rel="stylesheet" href="/styles/app.min.css?v=3" />
+        </head>
+        <body class="dark">
+             <div id="big-spiner" class="initial show"><div class="image-holder"><img src="/asset/loading/main-loading.svg" alt="وب سایت عباس باقری" width="200" height="200" /></div></div>
+             <header id="main-header"><div class="content"><button id="mobile-menu-button" title="باز کردن منو"><i class="icon-menu"></i></button><h2><span>وب سایت شخصی عباس باقری</span><a href="/"><img src="/asset/image/logo-ba4.svg" alt="وب سایت شخصی عباس باقری" /></a></h2><nav id="nav-menu"><div class="bg-holder"></div><div class="nav-content" id="nav-menu-list"><div class="top-space"></div><ul><li><a href="/" title="صفحه اصلی"><i class="icon-home"></i><span>خانه</span></a></li><li><a href="/resume" title="رزومه عباس باقری"><i class="icon-profile"></i><span>رزومه</span></a></li><li><a href="/contact" title="راه‌های ارتباطی با عباس باقری"><i class="icon-phone"></i><span>ارتباط</span></a></li><li><a href="/blog" title="نوشته‌های عباس باقری"><i class="icon-feather"></i><span>نوشته‌ها</span></a></li><li><a href="/work-samples" title="نمونه کارهای عباس باقری"><i class="icon-folder"></i><span>نمونه‌کارها</span></a></li></ul></div></nav><ul><li class="telegram"><a href="https://telegram.me/989015827703" title="گفت و گو در تلگرام"><i class="icon-telegram"></i></a></li><li class="github"><a href="https://github.com/abasb75" title="گیت‌هاب"><i class="icon-github"></i></a></li><li class="virgool"><a href="https://virgool.io/@abasb75" title="پست‌های من در ویرگول"><i class="icon-virgool"></i></a></li></ul><div id="dark-mode" title="انتخاب تم"><i class="icon-moon-o"></i></div></div></header>
+            <div id="page">
+                        <div id="header-title">
+<div class="content">
+    <div id="header-title-image" class="cover bg-image">
+        <img 
+        srcset="
+        /asset/image/header/bg-400.jpg 400w,
+        /asset/image/header/bg-640.jpg 640w,
+        /asset/image/header/bg-720.jpg 720w,
+        /asset/image/header/bg-1280.jpg 1280w,
+        /asset/image/header/bg-1920.jpg 1920w"
+        sizes="
+        (max-width:400px) 400px,
+        (max-width:640px) 640px,
+        (max-width:720px) 720px,
+        (max-width:1280px) 1280px,
+        1920px"
+        alt="نوشته‌های من" />
+    </div>
+    <div class="cover bg"></div>
+    <div id="particles-js" class="cover"></div>
+    <div class="cover content">
+        <h1>نوشته‌های من</h1>
+        <p>معمولا در مورد چیزهای مختلف می‌نویسم...</p>
+    </div>
+    </div>
+</div>
+<div class="header-title-padding-layout"></div>
+        <div id="blog-list">
+            <div class="content">
+                <div class="section-title-container">
+                            <div class="section-title">
+            <div class="line"></div>
+            <div class="radius">
+                <div class="inner-radius"></div>
+            </div>
+            <h2>جدیدترین نوشته‌ها - صفحه 3</h2>
+        </div>
+                </div>
+                <section id="blog-section">
+                                <article class="item">
+                <a href="/blog/8/نقشه-سایت-sitemap.xml" title="نقشه سایت sitemap.xml" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/8/th-google-seo.jpg" 
+                            alt="نقشه سایت sitemap.xml" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>نقشه سایت sitemap.xml</h3>
+                                <p>سایت مپ یا نقشه سایت یک فایل راهنما برای موتورهای جستجو مانند گوگل است.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>13 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/7/فایل-robots.txt" title="فایل robots.txt" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/7/th-robots.jpg" 
+                            alt="فایل robots.txt" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>فایل robots.txt</h3>
+                                <p>این فایل در واقع یک راهنما برای رباتهایی است که از سایت شما بازدید میکنند.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>12 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/6/سئو-لینک-های-وب-سایت" title="سئو لینک های وب سایت" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/6/th-google-seo.jpg" 
+                            alt="سئو لینک های وب سایت" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>سئو لینک های وب سایت</h3>
+                                <p>در این پست به بررسی اینکه چگونه لینکهای بهتری در صفحه وب خودمان داشته باشیم می پردازیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>11 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/5/سرویس-رایگان-meta-tag-generator" title="سرویس رایگان meta tag generator" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/5/th-tag.jpg" 
+                            alt="سرویس رایگان meta tag generator" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>سرویس رایگان meta tag generator</h3>
+                                <p>یک سرویس رایگان و کاربردی برای تولید لیست متا تگها است.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>11 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/4/لیست-متا-تگ-های-سئو-وب-سایت" title="لیست متا تگ های سئو وب سایت" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/4/th-google-seo.jpg" 
+                            alt="لیست متا تگ های سئو وب سایت" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>لیست متا تگ های سئو وب سایت</h3>
+                                <p>برای سئو سایت صفحه html خود به تگهای meta نیازمند هستیم که در این پست به این تگها میپردازیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>10 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/3/اجرای-دستورات-php-در-فایلهایی-با-پسوند-غیر-از-php" title="اجرای دستورات php در فایلهایی با پسوند غیر از php" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/3/th-change-php-version.jpg" 
+                            alt="اجرای دستورات php در فایلهایی با پسوند غیر از php" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>اجرای دستورات php در فایلهایی با پسوند غیر از php</h3>
+                                <p>ممکن است شما نیاز داشته در یک فایل غیر از php دستورات پی اچ پی را اجرا کنید. برای این کار چکاری میتوانیم انجام دهیم؟</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>9 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/2/تغییر-نسخه-php-سایت-از-طریق-فایل-htaccess-در-سایت" title="تغییر نسخه php سایت از طریق فایل htaccess در سایت" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/2/th-change-php-version.jpg" 
+                            alt="تغییر نسخه php سایت از طریق فایل htaccess در سایت" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>تغییر نسخه php سایت از طریق فایل htaccess در سایت</h3>
+                                <p>ممکن است شما برای اجرای وب سایت خود به نسخه خاصی از php نیاز نسخه خاصی از پی اچ پی داشته باشید. دراین پست توضیح میدهیم که چگونه نسخه php را برای وب سایت خود در هاست از طریق فایل htaccess تنظیم کنید</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>3 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+                </section>
+                        <div id="blog-pager">
+            <ul>
+                            <li>
+                <a href="/blog" class="" title="نوشته‌های عباس باقری">
+                    <span>1</span>
+                </a>
+            </li>            <li>
+                <a href="/blog?page=2" class="" title="نوشته‌های عباس باقری - صفحه 2">
+                    <span>2</span>
+                </a>
+            </li>            <li>
+                <a href="/blog?page=3" class="active" title="نوشته‌های عباس باقری - صفحه 3">
+                    <span>3</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+            </div>
+        </div>
+            </div>
+             <footer id="footer"><div class="footer-content"><div class="footer-div"><p>عباس باقری - برنامه نویس وب</p></div><div class="footer-div"><ul><li><a href="https://ictroshd.sums.ac.ir/page-ITIC/fa/171/form/pId65980" target="_blank">تیوان شیراز</a></li><li>• </li><li><a href="/rss" target="_blank">RSS</a></li><li>• </li><li><a href="https://github.com/abasb75" target="_blank">گیتهاب</a></li></ul></div></div></footer>
+        </body>
+        <script src="/js/app.min.js?v=3" defer ></script>
+        </html>

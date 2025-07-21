@@ -1,0 +1,14 @@
+#post-container blockquote {
+    width: 100%;
+    background: #f1f1f1;
+    border-right: 5px solid #00cec9;
+    font-size: 1.05rem;
+    padding: 20px;
+    margin: 16px auto;
+    color: var(--gray-600);
+}
+.dark #post-container blockquote {
+    background: var(--slate-950);
+    border-right: 5px solid var(--yellow-500);
+    color: var(--cyan-700);
+}

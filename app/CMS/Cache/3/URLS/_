@@ -1,0 +1,660 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+                    <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=5.0">
+
+        <meta name="subject" content="Personal Web Developer">
+        <meta name="copyright" content="Abas Bagheri">
+        <meta name="language" content='FA'>
+        <meta name="Classification" content="Business">
+        <meta name="author" content='Abbas Bagheri, abasbagheria@gmail.com'>
+        <meta name="url" content="https://abasbagheri.ir/">
+        <meta name="subtitle" content="برنامه نویس و طراحی وب سایت">
+        <meta name="target" content="all">
+        <meta name="revised" content="Sunday, July 29th, 2022, 5:15 pm">
+        <meta name='identifier-URL' content="https://abasbagheri.ir">
+        <meta name="google-site-verification" content="WRx4dyxLMr0lZzfwVv_lNEimc6Q4cu5V12fKX0fubTo" />
+        <meta name="designer" content="عباس باقری">
+        <meta name="reply-to" content="abasbagheria@gmail.com">
+        <meta name="owner" content="عباس باقری">
+
+        <meta name="pagename" content="وب سایت شخصی عباس باقری">
+
+        <meta name="category" content="Web Developer"'>
+        <meta name="coverage" content="Worldwide">
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
+
+
+        <meta name="title" content="وب سایت شخصی عباس باقری">
+        <meta name="description" content="وب سایت شخصی عباس باقری، مهندس نرم افزار و برنامه نویس ارشد وب سایت">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://abasbagheri.ir/">
+        <meta property="og:title" content="وب سایت شخصی عباس باقری">
+        <meta property="og:description" content="وب سایت شخصی عباس باقری، مهندس نرم افزار و برنامه نویس ارشد وب سایت">
+        <meta property="og:image" content="/asset/image/logo-ba8.svg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://abasbagheri.ir/">
+        <meta property="twitter:title" content="وب سایت شخصی عباس باقری">
+        <meta property="twitter:description" content="وب سایت شخصی عباس باقری، مهندس نرم افزار و برنامه نویس ارشد وب سایت">
+        <meta property="twitter:image" content="/asset/image/logo-ba8.svg">
+
+        <meta name="robots" content="follow, index"/>
+
+        <title>وب سایت شخصی عباس باقری</title>
+
+        
+            <link rel="stylesheet" href="/styles/app.min.css?v=3" />
+        </head>
+        <body class="dark">
+             <div id="big-spiner" class="initial show"><div class="image-holder"><img src="/asset/loading/main-loading.svg" alt="وب سایت عباس باقری" width="200" height="200" /></div></div>
+             <header id="main-header"><div class="content"><button id="mobile-menu-button" title="باز کردن منو"><i class="icon-menu"></i></button><h2><span>وب سایت شخصی عباس باقری</span><a href="/"><img src="/asset/image/logo-ba4.svg" alt="وب سایت شخصی عباس باقری" /></a></h2><nav id="nav-menu"><div class="bg-holder"></div><div class="nav-content" id="nav-menu-list"><div class="top-space"></div><ul><li><a href="/" title="صفحه اصلی"><i class="icon-home"></i><span>خانه</span></a></li><li><a href="/resume" title="رزومه عباس باقری"><i class="icon-profile"></i><span>رزومه</span></a></li><li><a href="/contact" title="راه‌های ارتباطی با عباس باقری"><i class="icon-phone"></i><span>ارتباط</span></a></li><li><a href="/blog" title="نوشته‌های عباس باقری"><i class="icon-feather"></i><span>نوشته‌ها</span></a></li><li><a href="/work-samples" title="نمونه کارهای عباس باقری"><i class="icon-folder"></i><span>نمونه‌کارها</span></a></li></ul></div></nav><ul><li class="telegram"><a href="https://telegram.me/989015827703" title="گفت و گو در تلگرام"><i class="icon-telegram"></i></a></li><li class="github"><a href="https://github.com/abasb75" title="گیت‌هاب"><i class="icon-github"></i></a></li><li class="virgool"><a href="https://virgool.io/@abasb75" title="پست‌های من در ویرگول"><i class="icon-virgool"></i></a></li></ul><div id="dark-mode" title="انتخاب تم"><i class="icon-moon-o"></i></div></div></header>
+            <div id="page">
+                        <div id="home">
+                    <div id="welcome">
+            <div id="home-welecome-bg" style="filter:blur(0px);transform:scale(1);">
+                <img width="1200" height="600" src="/asset/image/gols.jpg" alt="وب سایت شخصی عباس باقری">
+            </div>
+            <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="838" height="716"></canvas></div>
+            <div class="cover"> </div>
+            <div class="home-welcome-cover" id="home-welcome-cover" >
+                <div id="welcome-card">
+                    <p>سلام!</p>
+                    <h1>به وب سایت شخصی عباس باقری ، مهندس نرم‌افزار و توسعه دهنده ارشد وب خوش آمدید.</h1>
+                    <div id="welcome-buttons">
+                        <ul>
+                            <li><a onclick="gotoSection(event)" href="#about-me">درباره من</a></li>
+                            <li><a onclick="gotoSection(event)" href="#my-jobs">سوابق شغلی</a></li>
+                            <li><a onclick="gotoSection(event)" href="#my-skills">مهارتهای‌من</a></li>
+                            <li><a onclick="gotoSection(event)" href="#contact-me">راه‌های ارتباطی</a></li>
+                            <li><a onclick="gotoSection(event)" href="#home-latest-post">نوشته‌های اخیر</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="welcome-sosial-link">
+                    <span>در شبکه‌های اجتماعی: </span>
+                    <ul>
+                        <li><a href="https://telegram.me/989015827703" title="تلگرام"><i class="icon-telegram"></i></a></li>
+                        <li><a href="https://github.com/abasb75" title="گیتهاب"><i class="icon-github"></i></a></li>
+                        <li><a href="https://virgool.io/@abasb75" title="ویرگول"><i class="icon-virgool"></i></a></li>
+                        <li><a href="https://wa.me/989015827703" title="واتساپ"><i class="icon-whatsapp"></i></a></li>
+                        <li><a href="https://web.bale.ai/" title="پیامرسان بله"><i class="icon-bale"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                    <div id="about-me">
+            <div class="content">
+                        <div class="section-title">
+            <div class="line"></div>
+            <div class="radius">
+                <div class="inner-radius"></div>
+            </div>
+            <h2>درباره من</h2>
+        </div>
+                <div class="content">
+                    <div class="resume">
+                                <div id="my-resume">
+            <div class="info">
+                <div class="avatar">
+                    <div class="image-holder">
+                        <img
+                        src="/asset/image/avatar.png"
+                        alt="رزومه عباس باقری"
+                        width="120"
+                        height="120"
+                        />
+                    </div>
+                    <h3>عباس باقری</h3>
+                </div>
+                <div class="personal-info">
+                    <div class="item">
+                        <span class="key">ایمیل :</span>
+                        <span class="value"><a href="mailto: abasbagheria@gmail.com">abasbagheria@gmail.com</a></span>
+                    </div>
+
+                    <div class="item">
+                        <span class="key">شماره موبایل :</span>
+                        <span class="value"><a href="tel:+989907968973">09907968973</a></span>
+                    </div>
+
+                    <div class="item">
+                        <span class="key">سال تولد :</span>
+                        <span class="value">1375</span>
+                    </div>
+
+                    <div class="item">
+                        <span class="key">محل سکونت :</span>
+                        <span class="value">بوشهر، شبانکاره</span>
+                    </div>
+
+                    <div class="item">
+                        <span class="key">وضعیت خدمت :</span>
+                        <span class="value">پایان خدمت</span>
+                    </div>
+
+                    <div class="item">
+                        <span class="key">مدرک تحصیلی :</span>
+                        <span class="value">مهندسی نرم‌افزار</span>
+                    </div>
+
+                </div>
+                <a href="/asset/pdf/abbasbgaheri-resume.ir.pdf" area-label="دانلود رزومه عباس باقری" title="دانلود رزومه عباس باقری">
+                    <button id="resume-download">
+                        <i class="icon-download"></i>
+                        <span>دانلود رزمه</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+                    </div>
+                    <div class="detail">
+                        <p>به نام خدا</p>
+                        <p>عباس باقری هستم، دانش آموخته رشته مهندسی کامپیوتر، گرایش نرم افزار در مقطع کارشناسی از <a href="https://pgu.ac.ir" target="_blank">دانشگاه خلیج فارس بوشهر</a> و در حال حاضر شغلم برنامه‌نویسی وب هست.</p>
+                        <p>برنامه نویسی شامل شاخه‌های زیادی میشه، از جمله وب،موبایل و ...! خود برنامه نویسی وب هم شامل ابزارهای زیادی میشه که یادگیری همه‌اش کار یک نفر نیست.
+                            من با ابزارهایی مانند php، لاراول برای بکند و جاوااسکریپت و کتابخانه محبوب ریکت برای فرانت‌اند کار می‌کنم.
+                            البته نه این که چیز دیگه‌ای کار نکرده باشم، اما تخصصم فعلا ایناست.
+                        </p>
+                        <p>این وبگاه، امکان این را می‌دهد که با اطلاعات شغلی و مهارتهای فنی من آشنا شوید. این مهارتها در طول زمان ارتقا پیدا خواهند کرد. همچنین مطالبی در مورد چیزهای مختلف از جمله مهارتهای تخصصی خودم در صفحه <a href="/blog">بلاگ</a> این وبگاه قرار خواهم داد.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <div id="my-jobs">
+            <div class="content">
+                        <div class="section-title">
+            <div class="line"></div>
+            <div class="radius">
+                <div class="inner-radius"></div>
+            </div>
+            <h2>سوابق شغلی من</h2>
+        </div>
+                <div class="jobs">
+                                <div class="job">
+                <div class="image-holder">
+                    <img src="/asset/image/teacher.webp" alt="آموزگار" width="200" height="200"/>
+                    <div class="back-drop"></div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <div class="job-title">
+                            <span class="icon icon-suitcase"></span>
+                            <span>آموزگار</span>
+                        </div>
+                        <div class="job-company">
+                            <span class="icon icon-business"></span>
+                            <a href="https://medu.gov.ir/" target="_blank" title="آموزش و پروش">
+                                <span>آموزش و پروش</span></a>
+                            </div>
+                        <div class="job-duration">
+                            <span class="icon icon-hourglass" style="font-size:.875rem;">
+                            </span><span>آموزگار</span>
+                        </div>
+                    </div>
+                    <p>دو سال در آموزش و پرورش به عنوان آموزگار دوره ابتدائی (سربازمعلم) ، فعالیت کردم.</p>
+                </div>
+            </div>            <div class="job">
+                <div class="image-holder">
+                    <img src="/asset/image/developer.jpg" alt="توسعه دهنده" width="200" height="200"/>
+                    <div class="back-drop"></div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <div class="job-title">
+                            <span class="icon icon-suitcase"></span>
+                            <span>توسعه دهنده</span>
+                        </div>
+                        <div class="job-company">
+                            <span class="icon icon-business"></span>
+                            <a href="https://ictroshd.sums.ac.ir/page-ITIC/fa/171/form/pId65980" target="_blank" title="تیوان شیراز">
+                                <span>تیوان شیراز</span></a>
+                            </div>
+                        <div class="job-duration">
+                            <span class="icon icon-hourglass" style="font-size:.875rem;">
+                            </span><span>توسعه دهنده</span>
+                        </div>
+                    </div>
+                    <p>با شرکت تیوان شیراز روی سامانه تصاویر پزشکی دانشگاه علوم پزشکی شیراز به جهت توسعه و پشتیبانی این سامانه همکاری میکنم.</p>
+                </div>
+            </div>            <div class="job">
+                <div class="image-holder">
+                    <img src="/asset/image/developer.jpg" alt="توسعه دهنده" width="200" height="200"/>
+                    <div class="back-drop"></div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <div class="job-title">
+                            <span class="icon icon-suitcase"></span>
+                            <span>توسعه دهنده</span>
+                        </div>
+                        <div class="job-company">
+                            <span class="icon icon-business"></span>
+                            <a href="https://www.malek-co.com/" target="_blank" title="شرکت توسعه نرم افزار ملک">
+                                <span>شرکت توسعه نرم افزار ملک</span></a>
+                            </div>
+                        <div class="job-duration">
+                            <span class="icon icon-hourglass" style="font-size:.875rem;">
+                            </span><span>توسعه دهنده</span>
+                        </div>
+                    </div>
+                    <p>با این شرکت برای پشتیبانی نرم افزارهای مبتنی بر پی‌اچ‌پی و لاراول همکاری می‌کنم.</p>
+                </div>
+            </div>            <div class="job">
+                <div class="image-holder">
+                    <img src="/asset/image/developer.jpg" alt="توسعه دهنده" width="200" height="200"/>
+                    <div class="back-drop"></div>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <div class="job-title">
+                            <span class="icon icon-suitcase"></span>
+                            <span>توسعه دهنده</span>
+                        </div>
+                        <div class="job-company">
+                            <span class="icon icon-business"></span>
+                            <a href="https://nireeka.com" target="_blank" title="nireeka">
+                                <span>nireeka</span></a>
+                            </div>
+                        <div class="job-duration">
+                            <span class="icon icon-hourglass" style="font-size:.875rem;">
+                            </span><span>توسعه دهنده</span>
+                        </div>
+                    </div>
+                    <p>با شرکت nireeka که در حوزه دوچرخه های برقی در کانادا فعالیت می‌کند،‌ برای پوزیشن فرانت‌اند نکست جی اس بصورت ریموت و پاره وقت همکاری داشتم.</p>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+
+                    <div id="my-skills">
+            <div class="bg-box">
+                <div class="blue"></div>
+            </div>
+            <div class="content">
+                        <div class="section-title">
+            <div class="line"></div>
+            <div class="radius">
+                <div class="inner-radius"></div>
+            </div>
+            <h2>مهارتهای من</h2>
+        </div>
+                <div class="skills-holder">
+                                <a href="https://php.net" title="پی اچ پی" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-php.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">پی اچ پی</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D8%AC%D8%A7%D9%88%D8%A7%D8%A7%D8%B3%DA%A9%D8%B1%DB%8C%D9%BE%D8%AA" title="جاوااسکریپت" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-javascript.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">جاوااسکریپت</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D8%A7%DA%86%E2%80%8C%D8%AA%DB%8C%E2%80%8C%D8%A7%D9%85%E2%80%8C%D8%A7%D9%84%DB%B5" title="اچ تی ام ال" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-html.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">اچ تی ام ال</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D8%B3%DB%8C%E2%80%8C%D8%A7%D8%B3%E2%80%8C%D8%A7%D8%B3" title="سی اس اس" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-css.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">سی اس اس</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D9%85%D8%A7%DB%8C%E2%80%8C%D8%A7%D8%B3%E2%80%8C%DA%A9%DB%8C%D9%88%D8%A7%D9%84" title="mysql" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-mysql.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">mysql</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%E2%80%8C%DA%A9%DB%8C%D9%88%D8%A7%D9%84_%D9%84%D8%A7%DB%8C%D8%AA" title="sqlite" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-sqlite.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">sqlite</div>
+                    </div>
+                </div>
+            </a>            <a href="https://jquery.com" title="جی کوئری" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-jquery.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">جی کوئری</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3" title="لینوکس" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-linux.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">لینوکس</div>
+                    </div>
+                </div>
+            </a>            <a href="https://httpd.apache.org/" title="آپاچی" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-apache.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">آپاچی</div>
+                    </div>
+                </div>
+            </a>            <a href="https://getbootstrap.com/" title="بوت استرپ" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-bootstrap.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">بوت استرپ</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D8%B3%D8%A7%D8%B3_(%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A8%DA%A9_%D9%86%D9%88%DB%8C%D8%B3%DB%8C)" title="SASS" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-sass.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">SASS</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D8%AC%DB%8C%E2%80%8C%D8%B3%D8%A7%D9%86" title="جی سان" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-json.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">جی سان</div>
+                    </div>
+                </div>
+            </a>            <a href="https://fa.wikipedia.org/wiki/%D8%A7%DA%A9%D8%B3%E2%80%8C%D8%A7%D9%85%E2%80%8C%D8%A7%D9%84" title="xml" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-xml.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">xml</div>
+                    </div>
+                </div>
+            </a>            <a href="https://laravel.com" title="لاراول" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-laravel.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">لاراول</div>
+                    </div>
+                </div>
+            </a>            <a href="https://reactjs.org/" title="ریکت جی اس" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-react-js.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">ریکت جی اس</div>
+                    </div>
+                </div>
+            </a>            <a href="https://redux.js.org/" title="ریداکس" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-redux.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">ریداکس</div>
+                    </div>
+                </div>
+            </a>            <a href="https://docker.com/" title="داکر" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-docker.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">داکر</div>
+                    </div>
+                </div>
+            </a>            <a href="https://tailwindcss.com/" title="تیلویند" target="_blank">
+                <div class="skill-item">
+                    <div class="content">
+                        <div class="imageHolder">
+                            <img 
+                            src="/asset/image/skill/logo-tailwindcss.svg" 
+                            alt="{{ skills.name_fa }}"
+                            width="100"
+                            height="100"
+                            >
+                        </div>
+                        <div class="title">تیلویند</div>
+                    </div>
+                </div>
+            </a>
+                </div>
+            </div>
+        </div>
+                    <div id="contact-me">
+            <div class="contact_container">
+                <div class="map">
+                    <div class="items">
+                        <h2>راه های ارتباطی</h2>
+                        <div class="item">
+                            <i class="icon-phone"></i>
+                            <p>شماره تماس : <a href="tel:+989015827703">09015827703</a></p>
+                            <i class="icon-copy" onclick="copytoclip(this)"></i>
+                        </div>
+                        <div class="item">
+                            <i class="icon-envelope"></i>
+                            <p> ایمیل : <a href="mailto:abasbagheria@gmail.com">abasbagheria@gmail.com</a></p>
+                            <i class="icon-copy" onclick="copytoclip(this)"></i>
+                        </div>
+                        <div class="item">
+                            <i class="icon-whatsapp"></i>
+                            <p> واتساپ : <a href="https://wa.me/989015827703">wa.me/989015827703</a></p>
+                            <i class="icon-copy" onclick="copytoclip(this)"></i>
+                        </div>
+                        <div class="item">
+                            <i class="icon-telegram" ></i>
+                            <p> تلگرام : <a href="https://t.me/989015827703">@abasb75</a></p>
+                            <i class="icon-copy" onclick="copytoclip(this)"></i>
+                        </div>
+                        <div class="item">
+                            <i class="icon-stack-overflow"></i>
+                            <p> لینک : <a href="https://stackoverflow.com/users/10835176/abbas-bagheri">stackoverflow</a></p>
+                            <i class="icon-copy" onclick="copytoclip(this)"></i>
+                        </div>
+                        <div class="item">
+                            <i class="icon-github"></i>
+                            <p> گیت هاب : <a href="https://github.com/abasb75">@abasb75</a></p>
+                            <i class="icon-copy" onclick="copytoclip(this)"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <div id="home-latest-post">
+            <div class="content">
+                        <div class="section-title">
+            <div class="line"></div>
+            <div class="radius">
+                <div class="inner-radius"></div>
+            </div>
+            <h2>نوشته‌های تازه</h2>
+        </div>
+                <div class="list">
+                                <article class="item">
+                <a href="/blog/50/بررسی-service-worker-در-جاوااسکریپت" title="بررسی service worker در جاوااسکریپت" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img src="/asset/image/post/50/th-service-worker.png" alt="بررسی service worker در جاوااسکریپت">
+                        </div>
+                        <div class="post-title">
+                            <h3>بررسی service worker در جاوااسکریپت</h3>
+                            <p>سرویس ورکر یک قابلیت از مرورگرهای مدرن می‌باشد که امکان اجرای برخی از اسکریپتهای جاوااسکریپت را خارج از process اصلی صفحه وب می‌دهد.</p>
+                        </div>
+                        <div class="detail">
+                            <i class="icon-clock"></i>
+                            <span>2 دی 1402</span>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/49/شروع-کار-با-ایمیج-mysql-و-mariadb-در-داکر" title="شروع کار با ایمیج mysql و mariadb در داکر" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img src="/asset/image/post/49/th-docker.jpg" alt="شروع کار با ایمیج mysql و mariadb در داکر">
+                        </div>
+                        <div class="post-title">
+                            <h3>شروع کار با ایمیج mysql و mariadb در داکر</h3>
+                            <p>در این پست به بررسی نحوه راه اندازی دیتابیس mariadb (و mysql) بوسیله داکر پرداخته می‌شود.</p>
+                        </div>
+                        <div class="detail">
+                            <i class="icon-clock"></i>
+                            <span>23 آذر 1402</span>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/48/هوک-useReducer-در-ریکت" title="هوک useReducer در ریکت" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img src="/asset/image/post/48/th-react.png" alt="هوک useReducer در ریکت">
+                        </div>
+                        <div class="post-title">
+                            <h3>هوک useReducer در ریکت</h3>
+                            <p>هوک useReducer امکان مدیریت بهتر، برای استیتهای پیچیده را به وسیله reducer می‌دهد.</p>
+                        </div>
+                        <div class="detail">
+                            <i class="icon-clock"></i>
+                            <span>11 آذر 1402</span>
+                        </div>
+                    </div>
+                </a>
+            </article>
+                </div>
+                <div class="button">
+                    <a href="/blog">
+                        <span>موارد بیشتر</span>
+                        <i class="icon-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+            </div>
+             <footer id="footer"><div class="footer-content"><div class="footer-div"><p>عباس باقری - برنامه نویس وب</p></div><div class="footer-div"><ul><li><a href="https://ictroshd.sums.ac.ir/page-ITIC/fa/171/form/pId65980" target="_blank">تیوان شیراز</a></li><li>• </li><li><a href="/rss" target="_blank">RSS</a></li><li>• </li><li><a href="https://github.com/abasb75" target="_blank">گیتهاب</a></li></ul></div></div></footer>
+        </body>
+        <script src="/js/app.min.js?v=3" defer ></script>
+        </html>

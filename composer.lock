@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "db1054d43508c0fd8fd8052d0815b9ce",
+    "packages": [
+        {
+            "name": "abasb75/jdf",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abasb75/jdf.git",
+                "reference": "94875bc96134289b4c703b64e7b8330f788b0a78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abasb75/jdf/zipball/94875bc96134289b4c703b64e7b8330f788b0a78",
+                "reference": "94875bc96134289b4c703b64e7b8330f788b0a78",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Abasb75\\JDF\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Abbas Bagheri",
+                    "email": "abasbagheria@gmail.com"
+                }
+            ],
+            "description": "jdf for laravel",
+            "support": {
+                "issues": "https://github.com/abasb75/jdf/issues",
+                "source": "https://github.com/abasb75/jdf/tree/1.0.2"
+            },
+            "time": "2023-12-18T02:32:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

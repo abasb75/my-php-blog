@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tools/use-memo-hook/static/css/main.e6c13ad2.css",
+    "main.js": "/tools/use-memo-hook/static/js/main.5586d03e.js",
+    "static/js/593.6670e46a.chunk.js": "/tools/use-memo-hook/static/js/593.6670e46a.chunk.js",
+    "static/js/365.cd8b590f.chunk.js": "/tools/use-memo-hook/static/js/365.cd8b590f.chunk.js",
+    "static/js/477.a61e2745.chunk.js": "/tools/use-memo-hook/static/js/477.a61e2745.chunk.js",
+    "static/js/787.13bc45a5.chunk.js": "/tools/use-memo-hook/static/js/787.13bc45a5.chunk.js",
+    "index.html": "/tools/use-memo-hook/index.html",
+    "main.e6c13ad2.css.map": "/tools/use-memo-hook/static/css/main.e6c13ad2.css.map",
+    "main.5586d03e.js.map": "/tools/use-memo-hook/static/js/main.5586d03e.js.map",
+    "593.6670e46a.chunk.js.map": "/tools/use-memo-hook/static/js/593.6670e46a.chunk.js.map",
+    "365.cd8b590f.chunk.js.map": "/tools/use-memo-hook/static/js/365.cd8b590f.chunk.js.map",
+    "477.a61e2745.chunk.js.map": "/tools/use-memo-hook/static/js/477.a61e2745.chunk.js.map",
+    "787.13bc45a5.chunk.js.map": "/tools/use-memo-hook/static/js/787.13bc45a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5586d03e.js"
+  ]
+}

@@ -1,0 +1,591 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+                    <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=5.0">
+
+        <meta name="subject" content="Personal Web Developer">
+        <meta name="copyright" content="Abas Bagheri">
+        <meta name="language" content='FA'>
+        <meta name="Classification" content="Business">
+        <meta name="author" content='Abbas Bagheri, abasbagheria@gmail.com'>
+        <meta name="url" content="https://abasbagheri.ir/">
+        <meta name="subtitle" content="برنامه نویس و طراحی وب سایت">
+        <meta name="target" content="all">
+        <meta name="revised" content="Sunday, July 29th, 2022, 5:15 pm">
+        <meta name='identifier-URL' content="https://abasbagheri.ir">
+        <meta name="google-site-verification" content="WRx4dyxLMr0lZzfwVv_lNEimc6Q4cu5V12fKX0fubTo" />
+        <meta name="designer" content="عباس باقری">
+        <meta name="reply-to" content="abasbagheria@gmail.com">
+        <meta name="owner" content="عباس باقری">
+
+        <meta name="pagename" content="نوشته‌های عباس باقری - صفحه 2">
+
+        <meta name="category" content="Web Developer"'>
+        <meta name="coverage" content="Worldwide">
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
+
+
+        <meta name="title" content="نوشته‌های عباس باقری - صفحه 2">
+        <meta name="description" content="نوشته‌های عباس باقری برنامه نویس و مهندس نرم‌افزار که برای برنامه نویسان مفید خواهد بود">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://abasbagheri.ir/blog?page=2">
+        <meta property="og:title" content="نوشته‌های عباس باقری - صفحه 2">
+        <meta property="og:description" content="نوشته‌های عباس باقری برنامه نویس و مهندس نرم‌افزار که برای برنامه نویسان مفید خواهد بود">
+        <meta property="og:image" content="/asset/image/logo-ba8.svg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://abasbagheri.ir/blog?page=2">
+        <meta property="twitter:title" content="نوشته‌های عباس باقری - صفحه 2">
+        <meta property="twitter:description" content="نوشته‌های عباس باقری برنامه نویس و مهندس نرم‌افزار که برای برنامه نویسان مفید خواهد بود">
+        <meta property="twitter:image" content="/asset/image/logo-ba8.svg">
+
+        <meta name="robots" content="follow, index"/>
+
+        <title>نوشته‌های عباس باقری - صفحه 2</title>
+
+        
+            <link rel="stylesheet" href="/styles/app.min.css?v=3" />
+        </head>
+        <body class="dark">
+             <div id="big-spiner" class="initial show"><div class="image-holder"><img src="/asset/loading/main-loading.svg" alt="وب سایت عباس باقری" width="200" height="200" /></div></div>
+             <header id="main-header"><div class="content"><button id="mobile-menu-button" title="باز کردن منو"><i class="icon-menu"></i></button><h2><span>وب سایت شخصی عباس باقری</span><a href="/"><img src="/asset/image/logo-ba4.svg" alt="وب سایت شخصی عباس باقری" /></a></h2><nav id="nav-menu"><div class="bg-holder"></div><div class="nav-content" id="nav-menu-list"><div class="top-space"></div><ul><li><a href="/" title="صفحه اصلی"><i class="icon-home"></i><span>خانه</span></a></li><li><a href="/resume" title="رزومه عباس باقری"><i class="icon-profile"></i><span>رزومه</span></a></li><li><a href="/contact" title="راه‌های ارتباطی با عباس باقری"><i class="icon-phone"></i><span>ارتباط</span></a></li><li><a href="/blog" title="نوشته‌های عباس باقری"><i class="icon-feather"></i><span>نوشته‌ها</span></a></li><li><a href="/work-samples" title="نمونه کارهای عباس باقری"><i class="icon-folder"></i><span>نمونه‌کارها</span></a></li></ul></div></nav><ul><li class="telegram"><a href="https://telegram.me/989015827703" title="گفت و گو در تلگرام"><i class="icon-telegram"></i></a></li><li class="github"><a href="https://github.com/abasb75" title="گیت‌هاب"><i class="icon-github"></i></a></li><li class="virgool"><a href="https://virgool.io/@abasb75" title="پست‌های من در ویرگول"><i class="icon-virgool"></i></a></li></ul><div id="dark-mode" title="انتخاب تم"><i class="icon-moon-o"></i></div></div></header>
+            <div id="page">
+                        <div id="header-title">
+<div class="content">
+    <div id="header-title-image" class="cover bg-image">
+        <img 
+        srcset="
+        /asset/image/header/bg-400.jpg 400w,
+        /asset/image/header/bg-640.jpg 640w,
+        /asset/image/header/bg-720.jpg 720w,
+        /asset/image/header/bg-1280.jpg 1280w,
+        /asset/image/header/bg-1920.jpg 1920w"
+        sizes="
+        (max-width:400px) 400px,
+        (max-width:640px) 640px,
+        (max-width:720px) 720px,
+        (max-width:1280px) 1280px,
+        1920px"
+        alt="نوشته‌های من" />
+    </div>
+    <div class="cover bg"></div>
+    <div id="particles-js" class="cover"></div>
+    <div class="cover content">
+        <h1>نوشته‌های من</h1>
+        <p>معمولا در مورد چیزهای مختلف می‌نویسم...</p>
+    </div>
+    </div>
+</div>
+<div class="header-title-padding-layout"></div>
+        <div id="blog-list">
+            <div class="content">
+                <div class="section-title-container">
+                            <div class="section-title">
+            <div class="line"></div>
+            <div class="radius">
+                <div class="inner-radius"></div>
+            </div>
+            <h2>جدیدترین نوشته‌ها - صفحه 2</h2>
+        </div>
+                </div>
+                <section id="blog-section">
+                                <article class="item">
+                <a href="/blog/29/دسترسی-به-کنسول-مرورگر-کروم-موبایل" title="دسترسی به کنسول مرورگر کروم موبایل" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/29/th-console.png" 
+                            alt="دسترسی به کنسول مرورگر کروم موبایل" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>دسترسی به کنسول مرورگر کروم موبایل</h3>
+                                <p>تا موقعی که روی دستگاه‌های موبایل اجرا نکردیم همه چی خوب کار می‌کرد.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>27 اسفند 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/28/ابزار-redux-toolkit" title="ابزار redux toolkit" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/28/th-redux-toolkit.png" 
+                            alt="ابزار redux toolkit" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>ابزار redux toolkit</h3>
+                                <p>ابزار redux toolkit بوجود آمده است تا استفاده برنامه نویسان از redux را آسانتر کند.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>19 اسفند 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/27/ذخیره-حالات-برنامه-با-کتابخانه-redux-persist" title="ذخیره حالات برنامه با کتابخانه redux-persist" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/27/th-redux-persist.png" 
+                            alt="ذخیره حالات برنامه با کتابخانه redux-persist" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>ذخیره حالات برنامه با کتابخانه redux-persist</h3>
+                                <p>با کمک کتابخانه redux-persist می‌توان حالات برنامه را در مرورگر ذخیره کرد.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>7 اسفند 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/26/استفاده-از-کتابخانه-redux-saga" title="استفاده از کتابخانه redux-saga" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/26/th-redux-saga.png" 
+                            alt="استفاده از کتابخانه redux-saga" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>استفاده از کتابخانه redux-saga</h3>
+                                <p>کتابخانه redux-saga به ما کمک میکند تا بتوانیم توابع action creator ناهمزمان ایجاد کنیم.
+</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>5 اسفند 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/25/سرعت-سایت-:-رفع-و-حذف-منابع-مسدود-کننده-رندر" title="سرعت سایت : رفع و حذف منابع مسدود کننده رندر" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/25/th-speed.jpg" 
+                            alt="سرعت سایت : رفع و حذف منابع مسدود کننده رندر" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>سرعت سایت : رفع و حذف منابع مسدود کننده رندر</h3>
+                                <p>رفع و حذف منابع مسدودکننده رندر به معنای تنظیم یک اولویت مناسب جهت بارگیری سورسهای ضروری و غیرضروری است.
+</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>28 بهمن 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/24/تابع-سازنده-در-جاوااسکریپت-function-generator" title="تابع سازنده در جاوااسکریپت - function generator" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/24/th-function-generator.png" 
+                            alt="تابع سازنده در جاوااسکریپت - function generator" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>تابع سازنده در جاوااسکریپت - function generator</h3>
+                                <p>با اینکه در جاوااسکریپت از function generator زیاد استفاده نمیکنیم ولی ممکن است زمانی استفاده از آن ضروری شود.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>12 بهمن 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/23/ریداکس-و-api-بخش-چهارم" title="ریداکس و api - بخش چهارم" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/23/th-redux-thunk.png" 
+                            alt="ریداکس و api - بخش چهارم" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>ریداکس و api - بخش چهارم</h3>
+                                <p>برای اینکه بتوانیم از اکشنهای ناهمزمان مثل گرفتن اطلاعات از api استفاده کنیم، باید از redux-thunk استفاده کنیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>11 بهمن 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/22/ریداکس-در-کنار-ریکت-بخش-سوم" title="ریداکس در کنار ریکت - بخش سوم" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/22/th-react-redux.png" 
+                            alt="ریداکس در کنار ریکت - بخش سوم" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>ریداکس در کنار ریکت - بخش سوم</h3>
+                                <p>کتابخانه react-redux با این هدف آمده است که کار با redux را در پروژه react آسان کند.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>11 بهمن 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/21/ریداکس-بخش-دوم" title="ریداکس - بخش دوم" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/21/th-redux.png" 
+                            alt="ریداکس - بخش دوم" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>ریداکس - بخش دوم</h3>
+                                <p>در این پست به نحوه استفاده از توابع ریداکس و middleware ها میپردازیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>11 بهمن 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/20/مدیریت-حالات-برنامه-با-ریداکس" title="مدیریت حالات برنامه با ریداکس" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/20/th-redux.png" 
+                            alt="مدیریت حالات برنامه با ریداکس" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>مدیریت حالات برنامه با ریداکس</h3>
+                                <p>
+ریداکس یک کتابخانه مدیریت حالت برای جاوااسکریپت است، که معمولا همراه کتابخانه‌هایی مثل reactjs استفاده میشود.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>11 بهمن 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/19/ساخت-حالت-شب-با-کمی-جاوااسکریپت-و-css" title="ساخت حالت شب با کمی جاوااسکریپت و css" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/19/th-dark.jpg" 
+                            alt="ساخت حالت شب با کمی جاوااسکریپت و css" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>ساخت حالت شب با کمی جاوااسکریپت و css</h3>
+                                <p>در این پست با کدهای جاوااسکریپت و استفاده از ویژگیهای css حالت شب یا darkMode یا هر اسم دیگه ای که داره رو به صفحه وب خود اضافه میکنیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>9 بهمن 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/18/عبارات-با-قاعده-یا-regular-expressions" title="عبارات با قاعده یا regular expressions" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/18/th-regex.png" 
+                            alt="عبارات با قاعده یا regular expressions" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>عبارات با قاعده یا regular expressions</h3>
+                                <p>عبارات با قاعده کاربرد بسیاری در کار با رشته ها در زبانهای برنامه نویسی و پایگاه داده دارند. در این پست به بررسی عبارات باقاعده یا همون regular expressions خارجیا میپردازیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>7 بهمن 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/17/اتصال-دامنه-به-سرور-ابونتو-با-استفاده-bind9" title="اتصال دامنه به سرور ابونتو با استفاده bind9" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/17/th-ubuntu.jpg" 
+                            alt="اتصال دامنه به سرور ابونتو با استفاده bind9" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>اتصال دامنه به سرور ابونتو با استفاده bind9</h3>
+                                <p>در این پست، دامنه خود را به سرور ابونتو متصل میکنیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>15 دی 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/16/راه-اندازه-وب-سرور-nginx-و-php-روی-لینوکس-ابونتو-22.04" title="راه اندازه وب سرور nginx و php روی لینوکس ابونتو 22.04" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/16/th-change-php-version.jpg" 
+                            alt="راه اندازه وب سرور nginx و php روی لینوکس ابونتو 22.04" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>راه اندازه وب سرور nginx و php روی لینوکس ابونتو 22.04</h3>
+                                <p>در این پست یک وب سرور با استفاده از php و nginx روی سیستم عامل ابونتو 22.04 راه اندازی کردیم و وب سایت خود را روی آن آپلود کردیم</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>14 دی 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/15/راه-اندازی-وب-سرور-آپاچی،-php-،-mysql-روی-ابونتو-22.04" title="راه اندازی وب سرور آپاچی، php ، mysql روی ابونتو 22.04" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/15/th-change-php-version.jpg" 
+                            alt="راه اندازی وب سرور آپاچی، php ، mysql روی ابونتو 22.04" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>راه اندازی وب سرور آپاچی، php ، mysql روی ابونتو 22.04</h3>
+                                <p>در این پست وب سرور با استفاده از آپاچی راه اندازی میکنیم و وب سایت php و mysql خود را روی آن در اینترنت منتشر میکنیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>14 دی 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/14/اضافه-کردن-کتابخانه-جاوااسکریپت-به-npm" title="اضافه کردن کتابخانه جاوااسکریپت به npm" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/14/th-npm.png" 
+                            alt="اضافه کردن کتابخانه جاوااسکریپت به npm" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>اضافه کردن کتابخانه جاوااسکریپت به npm</h3>
+                                <p>در این پست یک پکیج جاوااسکریپت می سازیم و آنرا در npm منتشر میکنیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>11 دی 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/13/اتصال-به-پوشه-های-اشتراک-گذاری-شده-ویندوز-در-لینوکس" title="اتصال به پوشه های اشتراک گذاری شده ویندوز در لینوکس" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/13/th-ubuntu.jpg" 
+                            alt="اتصال به پوشه های اشتراک گذاری شده ویندوز در لینوکس" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>اتصال به پوشه های اشتراک گذاری شده ویندوز در لینوکس</h3>
+                                <p>در این پست نحوه اتصال به پوشه های به اشتراک گذاشته شده را در لینوکس ابونتو بررسی میکنیم.
+</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>10 شهریور 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/12/راه-کارهای-ساده-برای-ارتقا-امنیت-وب-سایت-php" title="راه کارهای ساده برای ارتقا امنیت وب سایت php" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/12/th-security.jpg" 
+                            alt="راه کارهای ساده برای ارتقا امنیت وب سایت php" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>راه کارهای ساده برای ارتقا امنیت وب سایت php</h3>
+                                <p>در این پست به بررسی چند راه کار ساده برای افزایش امنیت وب سایت می پردازیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>4 شهریور 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/11/داکرایز-کردن-پروژه-آپاچی-،-php-،-mysql-و-phpmyadmin" title="داکرایز کردن پروژه آپاچی ، php ، mysql و phpmyadmin" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/11/th-docker.jpg" 
+                            alt="داکرایز کردن پروژه آپاچی ، php ، mysql و phpmyadmin" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>داکرایز کردن پروژه آپاچی ، php ، mysql و phpmyadmin</h3>
+                                <p>در این پست به داکرایز کردن یک پروژه php به همراه پایگاه داده میپردازیم.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>1 شهریور 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/10/نحوه-داکرایز-کردن-پروژه-پی-اچ-پی-بدون-دیتابیس" title="نحوه داکرایز کردن پروژه پی اچ پی بدون دیتابیس" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/10/th-docker.jpg" 
+                            alt="نحوه داکرایز کردن پروژه پی اچ پی بدون دیتابیس" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>نحوه داکرایز کردن پروژه پی اچ پی بدون دیتابیس</h3>
+                                <p>در این پست به بررسی کدهای مربوط به داکرایز کردن یک پروژه پی اچ پی می میپردازیم. در این پروژه از دیتابیس mysql استفاده نشده است.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>24 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>            <article class="item">
+                <a href="/blog/9/نحوه-نصب-داکر-روی-لینوکس-ابونتو-و-دبیان" title="نحوه نصب داکر روی لینوکس ابونتو و دبیان" >
+                    <div class="article">
+                        <div class="thum-holder">
+                            <img 
+                            src="/asset/image/post/9/th-docker.jpg" 
+                            alt="نحوه نصب داکر روی لینوکس ابونتو و دبیان" 
+                            width="300" height="200"
+                            />
+                        </div>
+                        <div class="article-info">
+                            <div class="post-title">
+                                <h3>نحوه نصب داکر روی لینوکس ابونتو و دبیان</h3>
+                                <p>داکر یک نرم‌افزار برای مجازی سازی در بالاتر از سطح سیستم عامل است.</p>
+                            </div>
+                            <div class="detail">
+                                <i class="icon-clock"></i>
+                                <span>22 مرداد 1401</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+                </section>
+                        <div id="blog-pager">
+            <ul>
+                            <li>
+                <a href="/blog" class="" title="نوشته‌های عباس باقری">
+                    <span>1</span>
+                </a>
+            </li>            <li>
+                <a href="/blog?page=2" class="active" title="نوشته‌های عباس باقری - صفحه 2">
+                    <span>2</span>
+                </a>
+            </li>            <li>
+                <a href="/blog?page=3" class="" title="نوشته‌های عباس باقری - صفحه 3">
+                    <span>3</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+            </div>
+        </div>
+            </div>
+             <footer id="footer"><div class="footer-content"><div class="footer-div"><p>عباس باقری - برنامه نویس وب</p></div><div class="footer-div"><ul><li><a href="https://ictroshd.sums.ac.ir/page-ITIC/fa/171/form/pId65980" target="_blank">تیوان شیراز</a></li><li>• </li><li><a href="/rss" target="_blank">RSS</a></li><li>• </li><li><a href="https://github.com/abasb75" target="_blank">گیتهاب</a></li></ul></div></div></footer>
+        </body>
+        <script src="/js/app.min.js?v=3" defer ></script>
+        </html>

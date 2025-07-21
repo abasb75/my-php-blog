@@ -1,0 +1,35 @@
+#big-spiner{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    background: rgba(0,0,0,.5);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+#big-spiner.initial{
+    background: var(--slate-950);
+    z-index: 1001;
+}
+#big-spiner.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#big-spiner .image-holder{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+#big-spiner .image-holder img{
+    width: 100%;
+    height: 100%;
+}

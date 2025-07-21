@@ -1,0 +1,194 @@
+#share-post{
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(0px);
+}
+#share-post.show{
+    opacity: 1;
+    backdrop-filter: blur(5px);
+}
+
+#share-post-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#share-post #share-content {
+    max-width: 360px;
+    background: #fdfdfd;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    opacity: 0;
+    border-radius: 12px;
+    border: 1px solid #e9e9e9;
+    transition: .3s all;
+    padding: 12px;
+    transform: scale(.5);
+}
+
+
+.dark #share-post #share-content {
+    background: var(--slate-950);
+    border: 1px solid var(--cyan-800);
+}
+
+
+
+#share-post.show #share-content {
+    opacity: 1;
+    top: 120px;
+    transform: scale(1);
+}
+
+#share-post #share-content i.icon-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1rem;
+}
+
+.dark #share-post #share-content i.icon-close {
+    color: var(--cyan-500);
+}
+
+#share-post #share-content h3 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 12px auto;
+}
+.dark #share-post #share-content h3 {
+    color: var(--yellow-500);
+}
+#share-post #share-content span {
+    display: block;
+    position: relative;
+    background: #f1f1f1;
+    direction: ltr;
+    text-align: left;
+    height: 40px;
+    border: 2px solid #e9e9e9;
+    border-radius: 5px;
+    padding-left: 36px;
+}
+
+.dark #share-post #share-content span {
+    background: var(--slate-800);
+    border: 2px solid var(--cyan-800);
+}
+
+#share-post #share-content h6 {
+    font-size: .8rem;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: normal;
+}
+
+.dark #share-post #share-content h6 {
+    color: var(--yellow-500);
+}
+
+#share-post #share-content ul {
+    width: 100%;
+    text-align: center;
+    direction: ltr;
+    padding: 10px 0 20px 0;
+}
+
+#share-post #share-content ul li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    font-size: 1.6rem;
+    color: #666;
+    line-height: 24px;
+    margin: 0 8px;
+    transition: .1s all;
+}
+#share-post #share-content ul li:hover {
+    transform: scale(1.2);
+}
+#share-post #share-content ul li.icon-facebook-square{
+    font-size:1.7rem;
+    color:#3b5998;
+}
+#share-post #share-content ul li.icon-x{
+    font-size:1.5rem;
+    color:#444;
+}
+#share-post #share-content ul li.icon-linkedin{
+    font-size:1.8rem;
+    color:#0077b5;
+}
+
+#share-post #share-content ul li.icon-telegram{
+    font-size:1.6rem;
+    color:#0088cc;
+}
+
+#share-post #share-content ul li.icon-whatsapp{
+    font-size:1.8rem;
+    color:#25d366;
+}
+
+
+#share-post #share-content span i:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    left: 0;
+    background: none;
+    font-size: 1.01rem;
+    color: #787878;
+    cursor: pointer;
+    display: inline-block;
+    border-right: 1px solid #e9e9e9;
+}
+
+.dark #share-post #share-content span i:nth-child(1){
+    color: var(--gray-300);
+    border-right: 1px solid var(--cyan-950);
+}
+
+#share-post #share-content span i:nth-child(1):hover {
+    color: var(--link-color);
+}
+
+#share-post #share-content span i:nth-child(2), 
+#share-post #share-content span i:nth-child(3) {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 36px;
+    color: #666;
+    padding: 0 0 0 5px;
+}
+
+.dark #share-post #share-content span i:nth-child(2), 
+.dark #share-post #share-content span i:nth-child(3) {
+    color: var(--gray-300);
+}
+
+#share-post #share-content span i:nth-child(2){
+    font-size: .8rem;
+}
+
+#share-post #share-content span i:nth-child(3){
+    font-size: .8rem;
+    padding: 0;
+    user-select: text;
+}

@@ -1,0 +1,232 @@
+#welcome{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+    min-height: 420px;
+}
+
+#welcome #home-welecome-bg {
+    width: 100%;
+    height: 100%;
+    background: var(--grayLightColor);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#welcome #home-welecome-bg img {
+    width: 100%;
+    height: 100%;
+    background: var(--grayLightColor);
+    position: absolute;
+    object-fit: cover;
+}
+
+#welcome #particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#welcome .cover {
+    width: 100%;
+    height: 100%;
+    background: rgba(241,242,243,.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.dark #welcome .cover {
+    background: rgba(0,0,0,.4);
+    backdrop-filter: blur(5px);
+}
+
+#welcome .home-welcome-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#welcome .home-welcome-cover #welcome-card {
+    width: 95%;
+    max-width: 720px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+}
+
+.dark #welcome .home-welcome-cover #welcome-card {
+    width: 95%;
+    max-width: 720px;
+    background: rgba(0, 0, 0, 0.6);
+    background: rgba(2, 6, 23,0.6);
+    padding: 30px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+}
+
+
+#welcome #welcome-card h1 {
+    font-family: Vazir;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    color: #3c3c3c;
+}
+
+#welcome #welcome-card p{
+    font-size: 1.2rem;
+}
+
+.dark #welcome #welcome-card h1,
+.dark #welcome #welcome-card p
+{
+    color: var(--cyan-600);
+}
+
+#welcome #welcome-buttons{
+    padding: 20px 0;
+    border-top: 2px solid #c0c0c0;
+}
+.dark #welcome #welcome-buttons{
+    border-top: 2px solid var(--cyan-800);
+}
+
+#welcome #welcome-buttons ul{
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+#welcome #welcome-buttons ul li a{
+    color: var(--blue-900);
+    cursor: pointer;
+    pointer-events: all;
+    padding: 8px 12px;
+    font-size: .875rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dark #welcome #welcome-buttons ul li a{
+    color: var(--cyan-600);
+}
+
+.dark #welcome #welcome-buttons ul li a:hover{
+    color: var(--link-color);
+}
+
+
+#welcome #welcome-buttons ul li:nth-child(1) a{
+    background: var(--blue-500);
+    border-radius: 5px;
+    color: #fdfdfd;
+}
+
+#welcome #welcome-sosial-link {
+    width: 95%;
+    max-width: 720px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dark #welcome #welcome-sosial-link {
+    background: rgba(0, 0, 0, 0.6);
+    background: rgba(2, 6, 23,0.6);
+}
+
+#welcome #welcome-sosial-link span{
+    color: var(--blue-900);
+    cursor: pointer;
+    font-size: .875rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dark #welcome #welcome-sosial-link span{
+    color: var(--cyan-600);
+}
+
+#welcome #welcome-sosial-link ul{
+    display: flex;
+    gap: 12px;
+}
+
+#welcome #welcome-sosial-link ul a{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#welcome #welcome-sosial-link ul a i{
+    font-size: 1.3rem;
+}
+
+#welcome #welcome-sosial-link ul a i.icon-bale{
+    font-size: 1.2rem;
+    color: rgb(0, 184, 148);
+}
+
+#welcome #welcome-sosial-link ul a i.icon-whatsapp{
+    color:#128c7e;
+}
+#welcome #welcome-sosial-link ul a i.icon-telegram{
+    color: #2AABEE;
+}
+#welcome #welcome-sosial-link ul a i.icon-virgool{
+    color: #107abe;
+}
+#welcome #welcome-sosial-link ul a i.icon-github{
+    color:#4078c0;
+}
+
+
+@media screen and (max-width:998px) {
+    #welcome{
+        height: calc(100vh - 64px);
+    }
+
+    #welcome .home-welcome-cover {
+        padding-bottom: 64px;
+    }
+    
+}
+
+@media screen and (max-height:400px) {
+    #welcome .home-welcome-cover {
+        padding-bottom: 0;
+    }
+    
+}

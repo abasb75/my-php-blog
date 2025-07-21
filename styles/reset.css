@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    user-select: none;
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazir';
+    outline: none;
+    transition: .3s all;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+#page{
+    min-height: calc(100vh - 360px);
+}
+
+@media screen and (max-width:998px) {
+    #page{
+        min-height: calc(100vh - 146px);
+    }
+}
+
+.image-holder img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.image-holder amp-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#page{
+    overflow-x: hidden;
+}
+
+.main-container{
+    width: 100%;
+    background: #fff;
+    border-top: 5px solid var(--teal);
+}
+
+.dark .main-container{
+    width: 100%;
+    background: var(--slate-800);
+}

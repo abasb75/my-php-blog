@@ -1,0 +1,234 @@
+#blog-list{
+    width: 100%;
+    background: #fff;
+}
+#blog-list .content{
+    width: 100%;
+    padding: 50px 20px 100px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#blog-list .content section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#blog-list .content section article{
+    width: 33.33%;
+    padding: 12px;
+}
+
+.dark #blog-list{
+    background: var(--slate-950);
+}
+
+
+#blog-list .content .list{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#blog-list .content article{
+    display: flex;
+    width: 33.33%;
+    padding: 12px;
+}
+
+#blog-list article a{
+    width: 100%;
+}
+#blog-list .article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0 rgb(0 0 0 / 15%);
+    background: #fff;
+    overflow: hidden;
+}
+
+.dark #blog-list .article{
+    background: var(--slate-800);
+    border-radius: 5px;
+}
+
+#blog-list .article:hover{
+    box-shadow: -1px -1px 20px 0 rgb(0 0 0 / 25%);
+}
+
+.dark #blog-list .article:hover{
+    box-shadow: 0 0 20px 0 rgba(100,100,200,0.3);
+}
+
+#blog-list .thum-holder{
+    width: 100%;
+    padding-top: 65%;
+    background: #f1f1f1;
+    position: relative;
+    overflow: hidden;
+}
+
+.dark #blog-list .thum-holder{
+    background: var(--slate-700);
+}
+
+#blog-list .thum-holder img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+#blog-list .article:hover .thum-holder img{
+    transform: scale(1.2);
+}
+ 
+
+.dark #blog-list .thum-holder img{
+    filter: brightness(0.9);
+}
+
+#blog-list .article  h3 {
+    width: 100%;
+    padding: 20px 20px;
+    overflow: hidden;
+    font-size: 1.1rem;
+    text-align: right;
+    color: var(--gray-800);
+}
+.dark #blog-list .article  h3 {
+    color: var(--yellow-400);
+}
+
+#blog-list .article  p {
+    width: 100%;
+    padding: 0 20px;
+    overflow: hidden;
+    font-size: 1rem;
+    text-align: right;
+    color: #666;
+}
+
+.dark #blog-list .article  p {
+    color: var(--cyan-500);
+}
+
+#blog-list .article .detail {
+    margin-top: 60px;
+    height: 50px;
+    line-height: 40px;
+    text-align: right;
+    border-top: 1px solid #f1f1f1;
+    padding: 5px 12px;
+}
+
+.dark #blog-list .article .detail {
+    border-top: 1px solid var(--cyan-600);
+}
+
+#blog-list .article .detail * {
+    display: inline-block;
+    font-size: .875rem;
+    color: var(--gray-400);
+    line-height: 40px;
+    vertical-align: top;
+}
+
+.dark #blog-list .article .detail * {
+    color: var(--cyan-700);
+}
+
+#blog-list .button{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+#blog-list .button a *{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;
+    font-size: 1.1rem;
+    color: var(--gray-700);
+    margin: 0 2px;
+}
+.dark #blog-list .button a *{
+    color: var(--cyan-600);
+}
+
+
+#blog-list .button a{
+    display: block;
+}
+#blog-list .button a:hover *{
+    color: var(--link-color);
+}
+
+@media screen and (max-width:998px) {
+    #blog-list .content .list{
+        flex-wrap: wrap;
+    }
+    #blog-list .content article{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #blog-list .content{
+        width: 100%;
+        height: 100%;
+        padding: 12px 8px;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+    #blog-list .content article{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    #blog-list .content {
+        padding: 20px 0;
+    }
+
+    #blog-list .content .section-title-container{
+        padding: 0 12px;
+    }
+    #blog-list .content article{
+        width: 100% !important;
+        padding: 5px 5px !important;
+    }
+    #blog-list .article{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+    #blog-list .article h3 {
+        padding: 10px 10px;
+    }
+    #blog-list .article p {
+        padding: 0 10px;
+    }
+    
+    #blog-list .article .detail {
+        margin-top: 10px;
+        border-top: 1px solid #f1f1f1;
+        padding: 5px 5px;
+    }
+    #blog-list .thum-holder {
+        width: 120px;
+        padding-top: 25%;
+    }
+    #blog-list .article-info{
+        flex:1;
+        
+    }
+}

@@ -1,0 +1,24 @@
+.tags{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+.tags ul{
+    width: 100%;
+    height: 50px;
+    padding: 0 8px;
+}
+
+.tags ul li{
+    display: inline-block;
+    vertical-align: top;
+    background: var(--teal);
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+    margin-left: 8px;
+    color: #fff;
+    font-size: .875rem;
+}
+

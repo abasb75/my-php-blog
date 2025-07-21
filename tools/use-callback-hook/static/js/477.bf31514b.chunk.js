@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkuse_callback_hook=self.webpackChunkuse_callback_hook||[]).push([[477],{477:(l,c,e)=>{e.r(c),e.d(c,{default:()=>t});var u=e(87),s=e(184);const t=function(){return(0,s.jsxs)("ul",{children:[(0,s.jsx)("li",{children:(0,s.jsx)(u.rU,{to:"/counter-without-use-callback",children:"Counter Without useCallback"})}),(0,s.jsx)("li",{children:(0,s.jsx)(u.rU,{to:"/counter-with-use-callback",children:"Counter With useCallback"})})]})}}}]);
+//# sourceMappingURL=477.bf31514b.chunk.js.map

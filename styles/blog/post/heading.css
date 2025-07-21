@@ -1,0 +1,11 @@
+#post-container h2,
+#post-container h3{
+    font-size: 1.5rem;
+    color: var(--gray-950);
+    margin:  50px 0 20px 0;
+}
+
+.dark #post-container h2,
+.dark #post-container h3{
+    color: var(--yellow-500);
+}

@@ -1,0 +1,154 @@
+#my-jobs{
+    width: 100%;
+    background: white;
+}
+.dark #my-jobs{
+    background: var(--slate-950);
+}
+
+.jobs *{
+    font-size: 1rem;
+}
+
+#my-jobs > .content{
+    width: 100%;
+    max-width: 1280px;
+    padding: 32px 36px;
+    margin: 0 auto;
+}
+
+#my-jobs .jobs {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+#my-jobs .jobs .job {
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    position: relative;
+    display: flex;
+    gap: 12px;
+}
+.dark #my-jobs .jobs .job {
+    border: 1px solid var(--cyan-800);
+}
+
+#my-jobs .jobs .job .image-holder {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+
+#my-jobs .jobs .job .image-holder  .back-drop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.2);
+    backdrop-filter: blur(-1px);
+    z-index: 1;
+}
+
+
+
+#my-jobs .jobs .job .image-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#my-jobs .jobs .job .content {
+    flex: 1;
+}
+
+
+
+#my-jobs .jobs .job .title {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    font-size: 0;
+    border-bottom: 2px solid #a0a0a0;
+}
+.dark #my-jobs .jobs .job .title {
+    border-bottom: 2px solid var(--cyan-800);
+}
+
+
+#my-jobs .jobs .job .title div {
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+}
+
+#my-jobs .jobs .job .title div span.icon {
+    color: #a0a0a0;
+}
+.dark #my-jobs .jobs .job .title div span.icon {
+    color: var(--cyan-800);
+}
+
+#my-jobs .jobs .job .title div span {
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    margin-left: 5px;
+    line-height: 40px;
+    font-size: .875rem;
+}
+
+.dark #my-jobs .jobs .job .title div span {
+    color: var(--cyan-400);
+}
+
+#my-jobs .jobs .job .title div {
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+}
+
+
+#my-jobs .jobs .job p {
+    padding: 30px 12px ;
+    color: #333333;
+}
+
+.dark #my-jobs .jobs .job p {
+    color: var(--cyan-500);
+}
+
+#my-jobs .jobs .job .title a{
+    color: var(--link-color) !important;
+}
+
+.dark #my-jobs .jobs .job .title a{
+    color: var(--link-color) !important;
+}
+
+@media screen and (max-width:998px) {
+    #my-jobs > .content{
+        padding: 14px 12px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    #my-jobs{
+        border-bottom: 1px solid #f1f1f1;
+    }
+    #my-jobs .jobs .job .image-holder {
+        display: none;
+    }
+    #my-jobs .jobs .job {
+        padding: 5px 6px;
+    }
+    #my-jobs .jobs .job p{
+        font-size: .875rem;
+        padding: 12px 10px;
+    }
+}

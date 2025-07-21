@@ -1,0 +1,19 @@
+{
+    "name": "abasb75/jdf",
+    "description": "jdf for laravel",
+    "type": "library",
+    "licenjdfse": "mit",
+    "autoload": {
+        "psr-4": {
+            "Abasb75\\JDF\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abbas Bagheri",
+            "email": "abasbagheria@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

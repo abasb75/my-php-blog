@@ -1,0 +1,24 @@
+textarea.code{
+    font-size: 1.05rem;
+    font-family: 'fira-font';
+    width: 100%;
+    padding: 20px 16px;
+    resize: none;
+    line-height: 1.6;
+    color: var(--gray-800);
+    text-align: left;
+    direction: ltr;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    margin-bottom: 32px;
+    background: #f1f1f1;
+}
+.dark textarea.code{
+    background: var(--slate-950);
+    border: 2px solid var(--cyan-800);
+    color: var(--gray-200);
+}
+
+code *{
+    user-select: text;
+}

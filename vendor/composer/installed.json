@@ -1,0 +1,43 @@
+{
+    "packages": [
+        {
+            "name": "abasb75/jdf",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abasb75/jdf.git",
+                "reference": "94875bc96134289b4c703b64e7b8330f788b0a78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abasb75/jdf/zipball/94875bc96134289b4c703b64e7b8330f788b0a78",
+                "reference": "94875bc96134289b4c703b64e7b8330f788b0a78",
+                "shasum": ""
+            },
+            "time": "2023-12-18T02:32:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Abasb75\\JDF\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Abbas Bagheri",
+                    "email": "abasbagheria@gmail.com"
+                }
+            ],
+            "description": "jdf for laravel",
+            "support": {
+                "issues": "https://github.com/abasb75/jdf/issues",
+                "source": "https://github.com/abasb75/jdf/tree/1.0.2"
+            },
+            "install-path": "../abasb75/jdf"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,143 @@
+#my-resume{
+    width: 100%;
+    border-radius: 5px;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+
+.dark #my-resume{
+    background: var(--slate-950);
+}
+
+
+#my-resume .info {
+    width: 100%;
+    min-height: 200px;
+    padding: 12px;
+    font-size: 0;
+    background: #f1f1f1;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.dark #my-resume .info{
+    background: var(--slate-800);
+    border: none;
+}
+
+#my-resume .info .avatar {
+    width: 100%;
+    height: 200px;
+}
+
+#my-resume .info .avatar .image-holder {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #f1f1f1;
+    margin: 12px auto;
+    border: 2px solid #08c;
+}
+.dark #my-resume .info .avatar .image-holder {
+    background: var(--slate-950);
+}
+
+
+#my-resume .info .avatar h3 {
+    text-align: center;
+    font-size: 1rem;
+}
+.dark  #my-resume .info .avatar h3 {
+    color: #08c;
+}
+
+#my-resume .personal-info {
+    border-top: 1px solid #cecece;
+    padding: 12px 16px;
+}
+
+#my-resume .personal-info .item {
+    font-size: .875rem;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+
+#my-resume .personal-info .item .key {
+    font-weight: 700;
+    font-family: VazirBold;
+}
+
+.dark #my-resume .personal-info .item .key {
+    color: var(--cyan-600);
+}
+
+.dark #my-resume .personal-info .item .value {
+    color: var(--cyan-400);
+}
+
+
+#my-resume .personal-info .item a {
+    color: var(--link-color);
+    text-decoration: none;
+    min-height: 100%;
+}
+
+#my-resume .info button {
+    width: 100%;
+    background: #00cec9;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.dark #my-resume .info button {
+    background:var(--gray-950);
+    color: var(--cyan-400);
+}
+
+#my-resume .info button *{
+    line-height: 24px;
+    vertical-align: top;
+}
+
+#my-resume .info button i{
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+#my-resume .info button span{
+    font-weight: 400;
+}
+
+@media screen and (max-width:640px) {
+    #my-resume .info .avatar {
+        display: none;
+    }
+    #my-resume .personal-info{
+        display: none;
+    }
+    .dark #my-resume  button{
+        background: var(--slate-950) !important;
+    }
+    #my-resume .info,
+    .dark #my-resume .info
+    {
+        min-height: 0;
+        padding: 0;
+        background: none;
+    }
+    #my-resume,
+    .dark #my-resume{
+        background: none;
+        margin-bottom: 30px;
+    }
+
+
+}

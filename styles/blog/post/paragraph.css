@@ -1,0 +1,19 @@
+#post-container p{
+    line-height: 2;
+    color: var(--gray-900);
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+}
+
+#post-container p a{
+    color: var(--link-color);
+}
+
+.dark #post-container p{
+    color: var(--cyan-200);
+}
+
+.dark #post-container p b,
+.dark #post-container p strong{
+    color: var(--cyan-500);
+}

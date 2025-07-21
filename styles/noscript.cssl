@@ -1,0 +1,11 @@
+#big-spiner,
+#contact-form,
+#return-back-btn,
+#dark-mode,
+#go-top,
+.icon-share,
+.icon-bookmark-o,
+.icon-bookmark,
+.icon-copy{
+    display: none !important;
+}
