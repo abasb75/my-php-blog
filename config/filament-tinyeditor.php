@@ -31,11 +31,17 @@ return [
             'plugins' => 'accordion autoresize codesample directionality advlist link image lists preview pagebreak searchreplace wordcount code fullscreen insertdatetime media iframe table emoticons',
             'toolbar' => 'undo redo removeformat | fontfamily fontsize fontsizeinput font_size_formats styles | bold italic underline | rtl ltr | alignjustify alignleft aligncenter alignright | numlist bullist outdent indent | forecolor backcolor | blockquote table toc hr | image link media iframe code codesample emoticons | wordcount fullscreen',
             'upload_directory' => null,
+                
             'custom_configs' => [
-                'extended_valid_elements' => 'iframe[src|width|height|frameborder|allow|allowfullscreen]',
+                'extended_valid_elements' => 'iframe[src|width|height|frameborder|allow|allowfullscreen|sandbox]',
                 'external_plugins' => [
-                    'customIframe' => asset('tinymce/iframe.js'),
+                    'iframe' => '/tinymce/iframe.js',
                 ],
+                'valid_elements' => '*[*]', // اجازه دادن به همه تگ‌ها و ویژگی‌ها (اختیاری، با احتیاط)
+                'sandbox_iframes' => false, // غیرفعال کردن sandbox پیش‌فرض
+                'convert_urls' => false, // جلوگیری از تبدیل URLها
+                'allow_script_urls' => true, // اجازه دادن به URLهای اسکریپت
+                'allow_conditional_comments' => true,
                 'codesample_languages' => [
                     ['text' => 'HTML/XML', 'value' => 'html'],
                     ['text' => 'JavaScript', 'value' => 'javascript'],

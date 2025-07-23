@@ -41,7 +41,7 @@ class BlogController extends Controller
     public function frame($post, $slug)
     {
         // مسیر فایل بلید رو می‌سازیم
-        $viewPath = "posts.{$post}.{$slug}";
+        $viewPath = "frames.{$post}.{$slug}";
 
         // بررسی می‌کنیم که آیا فایل بلید وجود داره
         if (!view()->exists($viewPath)) {

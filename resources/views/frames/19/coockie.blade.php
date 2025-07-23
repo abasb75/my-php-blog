@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="device">
+<html lang="en" data-theme="<?php echo  isset($_COOKIE['theme']) ? $_COOKIE['theme'] : 'device' ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Theme with Cookie</title>
     <style>
         :root {
-            /* متغیرهای پایه (پیش‌فزض برای تم brightness) */
+            /* متغیرهای پایه (پیش‌فرض برای تم روشن) */
             --backgroundColor: #F1F1F1;
             --textColor: #3A3A3A;
         }
@@ -26,17 +26,16 @@
         }
 
         /* اعمال متغیرها به المنت‌ها */
-
-        h1{
+        h1 {
             text-align: center;
         }
 
-        body{
+        body {
             background-color: var(--backgroundColor);
             color: var(--textColor);
         }
 
-        #flex-div{
+        #flex-div {
             width: 100%;
             height: 100vh;
             background-color: var(--backgroundColor);
@@ -77,7 +76,6 @@
            opacity: 0.3;
            pointer-events: none;
         }
-
     </style>
 </head>
 <body>
@@ -88,17 +86,29 @@
             <button id="light-btn" onclick="setTheme('light')">Light</button>
             <button id="dark-btn" onclick="setTheme('dark')">Dark</button>
         </div>
-
     </div>
+    <script>
+
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+    return null;
+}
+
+function setCookie(name, value) {
+    let expires = "";
+    const date = new Date();
+    date.setTime(date.getTime() + (365 * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+    document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+function setTheme(theme) {
+    document.documentElement.dataset.theme = theme;
+    setCookie('theme', theme, 30); // ذخیره تم در کوکی برای 30 روز
+}
+
+    </script>
 </body>
-<script>
-    const theme = localStorage.getItem('theme');
-    if(theme){
-        setTheme(theme);
-    }
-    function setTheme(theme){
-        document.documentElement.dataset.theme = theme;
-        localStorage.setItem('theme',theme);
-    }
-</script>
 </html>

@@ -32,4 +32,5 @@ Route::get('/post/{id}',[BlogController::class,'single'])->name('post');
 Route::get('/post/{id}/{slug}',[BlogController::class,'single'])->name('post.slug');
 Route::get('/p/{id}',[BlogController::class,'single'])->name('post.short');
 
-// Route::get('/frames/{post}/{slug}',[BlogController::class,'frame'])->name('frame');
+
+Route::get('/frames/{post}/{slug}',[BlogController::class,'frame'])->name('frame');

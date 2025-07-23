@@ -13,18 +13,6 @@ tinymce.PluginManager.add('iframe', function(editor, url) {
                             name: 'iframeUrl',
                             label: 'URL ویدیو (مثل اپارات)'
                         },
-                        {
-                            type: 'input',
-                            name: 'width',
-                            label: 'عرض',
-                            value: '560'
-                        },
-                        {
-                            type: 'input',
-                            name: 'height',
-                            label: 'ارتفاع',
-                            value: '315'
-                        }
                     ]
                 },
                 buttons: [
@@ -39,7 +27,9 @@ tinymce.PluginManager.add('iframe', function(editor, url) {
                 ],
                 onSubmit: function(api) {
                     var data = api.getData();
-                    var iframeHtml = `<iframe src="${data.iframeUrl}" width="100%" frameborder="0" allowfullscreen></iframe>`;
+                    var iframeHtml = `<div class="iframe">
+                        <iframe src="${data.iframeUrl}" width="100%" frameborder="0" allowfullscreen sandbox="allow-scripts"></iframe>
+                    </div>`;
                     editor.insertContent(iframeHtml);
                     api.close();
                 }
