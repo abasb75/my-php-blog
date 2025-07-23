@@ -27,7 +27,7 @@
                 <li><a href="https://github.com/abasb75" title="گیتهاب"><i class="icon-github"></i></a></li>
                 <li><a href="https://virgool.io/@abasb75" title="ویرگول"><i class="icon-virgool"></i></a></li>
                 <li><a href="https://wa.me/989015827703" title="واتساپ"><i class="icon-whatsapp"></i></a></li>
-                <li><a href="https://web.bale.ai/" title="پیامرسان بله"><i class="icon-bale"></i></a></li>
+                <li><a href="https://ble.ir/abasb75" title="پیامرسان بله"><i class="icon-bale"></i></a></li>
             </ul>
         </div>
     </div>

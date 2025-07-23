@@ -2,3 +2,16 @@
 @import '../../../../vendor/awcodes/filament-tiptap-editor/resources/css/plugin.css';
 
 @config 'tailwind.config.js';
+
+.filament-image-library-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)); /* نمایش ۵ تصویر در هر ردیف */
+    gap: 1rem; /* فاصله بین تصاویر */
+}
+
+.filament-image-library-grid img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* محدود کردن حداکثر ارتفاع تصاویر */
+    object-fit: cover; /* حفظ نسبت تصویر */
+}

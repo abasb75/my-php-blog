@@ -1,0 +1,36 @@
+<p class="md-block-unstyled">خب اولین مورد مثلا استفاده از لینک بدون پسوند http مناسب نیست.</p>
+<pre  class="language-html"><code>&lt;a href="example.com"&gt;My Website Link&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">بجای قطعه کد بالا از کد زیر استفاده کنیم :</p>
+<pre  class="language-html"><code>&lt;a href="https://example.com"&gt;My Website Link&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">اگر صفحه مربوط به لینک ما برای کشور یا منطقه خاصی است میتوانیم عنوان کشور را در لینک خود قرار دهیم. مثال :</p>
+<pre  class="language-html"><code>&lt;a href="https://example.ir"&gt;My Website Link&lt;/a&gt;
+&lt;a href="https://example.com/ir/"&gt;My Website Link&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">مورد بعد اینه که داخل لینک کلمات رو از هم جدا کنیم مثلا لینک زیر اصلا مناسب نیست.</p>
+<pre  class="language-html"><code>&lt;a href="https://example.ir/hometools"&gt;home tools&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">باید واژگان رو در لینک از هم جدا کنیم. دقت کنیم هرگز در لینک یا تصاویر واژگان رو با علامت _ یا فاصله از هم جدا نکنیم میتوان از علامت - یا / استفاده کرد.</p>
+<pre  class="language-html"><code>&lt;a href="https://example.ir/home/tools"&gt;home tools&lt;/a&gt;
+&lt;a href="https://example.ir/home-tools"&gt;home tools&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">مورد بدتری که در برخی صفحات انجام میشود ساخت لینکها بوسیله id در قالب درخواست get است مانند نمونه :</p>
+<pre  class="language-html"><code>&lt;a href="https://example.ir/post?id=1234"&gt;home tools&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">بجای این مورد میتوان از عنوان لینک در ساخت لینکها کمک گرفت. دقت کنید در جداسازی کلمات در لینکها از کاراکتر _ استفاده نشود.</p>
+<pre  class="language-html"><code>&lt;a href="https://example.ir/post/1234/how-to-seo"&gt;how to seo?&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">در مورد تصاویر هم همین قاعده صدق میکند نام و عنوان تصویر مربوطه را مطابق تصویر و پست مربوط به آن انتخاب کنیم.</p>
+<pre  class="language-html"><code>&lt;img src="https://example.ir/images/post/how-to-seo.webp" alt="how to seo?"&gt;</code></pre>
+<blockquote class="md-block-blockquote">نکته : استفاده از alt برای تصاویر ضروری است.</blockquote>
+<p class="md-block-unstyled">مورد بعدی و مهم متن لینک هست که حتما در مورد صفحه مربوط به لینک باید باشه مثلا استفاده از کلماتی مثل go و click here مناسب نیست.</p>
+<pre  class="language-html"><code>&lt;a href=&amp;quothttps://example.ir/post/1234/how-to-seo&amp;quot&gt;how to seo?&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">استفاده از موارد زیر مناسب نیست.</p>
+<pre  class="language-html"><code>&lt;a href="https://example.ir/post/1234/how-to-seo"&gt;Go&lt;/a&gt;
+&lt;a href="https://example.ir/post/1234/how-to-seo"&gt;Click Here&lt;/a&gt;
+&lt;a href="https://example.ir/post/1234/how-to-seo"&gt;https://example.ir/post/1234/how-to-seo&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">ویژگی title هم کمک زیادی به خوانا بودن لینک میکند.</p>
+<pre  class="language-html"><code>&lt;a href="https://example.ir/post/1234/how-to-seo" title="how to get rank in google?"&gt;How to seo?&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">ویژگی rel در تگ لینک : این ویژگی چند مقدار ثابت میگیرد. اگر میخواهید به طور کامل لینک شما توسط گوگل دنبال شود. از این ويژگی استفاده نکنید.</p>
+<p class="md-block-unstyled">لینکهایی که مربوط به اسپانسر صفحه ما باشند را با مقدار sponsored برای ويژگی rel مشخص میکنیم.</p>
+<pre  class="language-html"><code>&lt;a rel="sponsored" href="https://example.ir/post/1234/how-to-seo" title="how to get rank in google?"&gt;How to seo?&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">محتوای تولید شده توسط کاربر مانند نظرات، نوشته ها و ... را با مقدار ugc مشخص میکنیم.</p>
+<pre  class="language-html"><code>&lt;a rel="ugc" href="https://example.ir/post/1234/how-to-seo/comment/6" title="how to get rank in google?"&gt;Comment 6&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">و مقدار آخر مقدار nofollow میباشد به معنی اینکه موتور جستجوگر لینک را دنبال و بررسی نکند.</p>
+<p class="md-block-unstyled">دقت کنیم میتوان همزمان از چند مقدار برای ویژگی rel استفاده کرد.</p>
+<pre  class="language-html"><code>&lt;a rel="ugc nofollow" href="https://example.ir/post/1234/how-to-seo/comment/6" title="how to get rank in google?"&gt;Comment 6&lt;/a&gt;</code></pre>
+<p class="md-block-unstyled">امیدوارم مقاله مفید بوده باشه.</p>

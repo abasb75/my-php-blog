@@ -28,22 +28,29 @@ return [
 
     'profiles' => [
         'default' => [
-            'plugins' => 'accordion autoresize codesample directionality advlist link image lists preview pagebreak searchreplace wordcount code fullscreen insertdatetime media table emoticons',
-            'toolbar' => 'undo redo removeformat | fontfamily fontsize fontsizeinput font_size_formats styles | bold italic underline | rtl ltr | alignjustify alignleft aligncenter alignright | numlist bullist outdent indent | forecolor backcolor | blockquote table toc hr | image link media code codesample emoticons | wordcount fullscreen',
+            'plugins' => 'accordion autoresize codesample directionality advlist link image lists preview pagebreak searchreplace wordcount code fullscreen insertdatetime media iframe table emoticons',
+            'toolbar' => 'undo redo removeformat | fontfamily fontsize fontsizeinput font_size_formats styles | bold italic underline | rtl ltr | alignjustify alignleft aligncenter alignright | numlist bullist outdent indent | forecolor backcolor | blockquote table toc hr | image link media iframe code codesample emoticons | wordcount fullscreen',
             'upload_directory' => null,
             'custom_configs' => [
+                'extended_valid_elements' => 'iframe[src|width|height|frameborder|allow|allowfullscreen]',
+                'external_plugins' => [
+                    'customIframe' => asset('tinymce/iframe.js'),
+                ],
                 'codesample_languages' => [
-                    ['text' => 'HTML/XML', 'value' => 'markup'],
+                    ['text' => 'HTML/XML', 'value' => 'html'],
                     ['text' => 'JavaScript', 'value' => 'javascript'],
                     ['text' => 'CSS', 'value' => 'css'],
                     ['text' => 'PHP', 'value' => 'php'],
                     ['text' => 'Python', 'value' => 'python'],
                     ['text' => 'Java', 'value' => 'java'],
-                    ['text' => '.htaccess', 'value' => 'apacheconf'],
+                    ['text' => '.htaccess', 'value' => 'apache'],
                     ['text' => 'Shell', 'value' => 'bash'],
                     ['text' => 'Docker', 'value' => 'docker'],
                     ['text' => 'JSON', 'value' => 'json'],
+                    ['text' => 'YAML', 'value' => 'yml'],
+                    ['text' => 'INI', 'value' => 'ini'],
                 ],
+
             ]
         ],
 

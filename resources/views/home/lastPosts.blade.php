@@ -10,7 +10,7 @@
         <div class="list">
             @foreach ($posts as $post)
                 <article class="item">
-                    <a href="/blog/{{ $post->id }}/{{ Str::slug($post->title) }}" title="{{ $post->title }}">
+                    <a href="/blog/{{ $post->id }}/{{ $post->slug }}" title="{{ $post->title }}">
                         <div class="article">
                             <div class="thum-holder">
                                 <x-image-library-picture :image="Outerweb\ImageLibrary\Models\Image::find($post->thumbnail)" conversion="original" fallback-conversion="original" />

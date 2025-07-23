@@ -11,6 +11,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 function runParticleJS(){
+  console.log('xxx');
   if(!document.getElementById('particles-js')){
     return; 
   }
