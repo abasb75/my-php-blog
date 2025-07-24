@@ -22,9 +22,9 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         '40275907c8566c390185147049ef6e5d' => __DIR__ . '/..' . '/livewire/livewire/src/helpers.php',
         '2c620c99f96a2b964346b45a4d1d1e64' => __DIR__ . '/..' . '/spatie/invade/src/functions.php',
         'e125f489d647ae664b0af7b573079de7' => __DIR__ . '/..' . '/filament/support/src/helpers.php',
+        'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '35a6ad97d21e794e7e22a17d806652e4' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Functions.php',
         '09f6b20656683369174dd6fa83b7e5fb' => __DIR__ . '/..' . '/symfony/polyfill-uuid/bootstrap.php',
-        'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         '265b4faa2b3a9766332744949e83bf97' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/helpers.php',
         'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
@@ -41,14 +41,17 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'b6ec61354e97f32c0ae683041c78392a' => __DIR__ . '/..' . '/scrivo/highlight.php/HighlightUtilities/functions.php',
         '3bd81c9b8fcc150b69d8b63b4d2ccf23' => __DIR__ . '/..' . '/spatie/flare-client-php/src/helpers.php',
+        'a4ecaeafb8cfb009ad0e052c90355e98' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '7816d559451b44219842155eb0ee0246' => __DIR__ . '/..' . '/outerweb/filament-translatable-fields/src/Helpers/helpers.php',
         'bfc465335e275d58ee22955714cf10e6' => __DIR__ . '/..' . '/outerweb/image-library/src/Helpers/helpers.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '096c2d3bc2fc8bdd430b86b9391cf287' => __DIR__ . '/..' . '/awcodes/filament-tiptap-editor/src/helpers.php',
+        '4e7b0ea3cd6226f5a6c0c7be5e8075dd' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Helpers.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'c72349b1fe8d0deeedd3a52e8aa814d8' => __DIR__ . '/..' . '/mockery/mockery/library/helpers.php',
         'ce9671a430e4846b44e1c68c7611f9f5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
+        'e4e590a9b5afe940db71ee1662c02677' => __DIR__ . '/..' . '/morilog/jalali/src/helpers.php',
         'a1cfe24d14977df6878b9bf804af2d1c' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php',
         'c2548c1cb399b2c6d7bc9fc58c107ee3' => __DIR__ . '/..' . '/outerweb/filament-image-library/src/Helpers/helpers.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
@@ -58,6 +61,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
     public static $prefixLengthsPsr4 = array (
         'v' => 
         array (
+            'voku\\helper\\' => 12,
             'voku\\' => 5,
         ),
         'W' => 
@@ -152,8 +156,11 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         ),
         'M' => 
         array (
+            'Morilog\\Jalali\\' => 15,
             'Monolog\\' => 8,
             'Mockery\\' => 8,
+            'MatthiasMullie\\PathConverter\\' => 29,
+            'MatthiasMullie\\Minify\\' => 22,
             'Masterminds\\' => 12,
             'Malzariey\\FilamentLexicalEditor\\' => 32,
         ),
@@ -205,6 +212,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
             'FilamentTiptapEditor\\Tests\\' => 27,
             'FilamentTiptapEditor\\' => 21,
             'Faker\\' => 6,
+            'Fahlisaputra\\Minify\\' => 20,
         ),
         'E' => 
         array (
@@ -240,16 +248,23 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         ),
         'A' => 
         array (
+            'Assert\\' => 7,
             'App\\' => 4,
             'AnourValar\\EloquentSerialize\\' => 29,
             'AmidEsfahani\\FilamentTinyEditor\\' => 32,
+            'Abordage\\HtmlMin\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'voku\\helper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper',
+        ),
         'voku\\' => 
         array (
-            0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
+            0 => __DIR__ . '/..' . '/voku/html-min/src/voku',
+            1 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
         ),
         'Whoops\\' => 
         array (
@@ -530,6 +545,10 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/collision/src',
         ),
+        'Morilog\\Jalali\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/morilog/jalali/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -537,6 +556,14 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Mockery\\' => 
         array (
             0 => __DIR__ . '/..' . '/mockery/mockery/library/Mockery',
+        ),
+        'MatthiasMullie\\PathConverter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matthiasmullie/path-converter/src',
+        ),
+        'MatthiasMullie\\Minify\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matthiasmullie/minify/src',
         ),
         'Masterminds\\' => 
         array (
@@ -686,6 +713,10 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         array (
             0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
         ),
+        'Fahlisaputra\\Minify\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src',
+        ),
         'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/src',
@@ -768,6 +799,10 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         array (
             0 => __DIR__ . '/..' . '/blade-ui-kit/blade-heroicons/src',
         ),
+        'Assert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/beberlei/assert/lib/Assert',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -780,6 +815,10 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'AmidEsfahani\\FilamentTinyEditor\\' => 
         array (
             0 => __DIR__ . '/..' . '/amidesfahani/filament-tinyeditor/src',
+        ),
+        'Abordage\\HtmlMin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/abordage/html-min/src',
         ),
     );
 
@@ -798,6 +837,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
     );
 
     public static $classMap = array (
+        'Abordage\\HtmlMin\\HtmlMin' => __DIR__ . '/..' . '/abordage/html-min/src/HtmlMin.php',
         'AmidEsfahani\\FilamentTinyEditor\\Tiny' => __DIR__ . '/..' . '/amidesfahani/filament-tinyeditor/src/Tiny.php',
         'AmidEsfahani\\FilamentTinyEditor\\TinyEditor' => __DIR__ . '/..' . '/amidesfahani/filament-tinyeditor/src/TinyEditor.php',
         'AmidEsfahani\\FilamentTinyEditor\\TinyeditorServiceProvider' => __DIR__ . '/..' . '/amidesfahani/filament-tinyeditor/src/TinyeditorServiceProvider.php',
@@ -809,6 +849,11 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'AnourValar\\EloquentSerialize\\Service' => __DIR__ . '/..' . '/anourvalar/eloquent-serialize/src/Service.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Filament\\Resources\\MessageResource' => __DIR__ . '/../..' . '/app/Filament/Resources/MessageResource.php',
+        'App\\Filament\\Resources\\MessageResource\\Pages\\CreateMessage' => __DIR__ . '/../..' . '/app/Filament/Resources/MessageResource/Pages/CreateMessage.php',
+        'App\\Filament\\Resources\\MessageResource\\Pages\\EditMessage' => __DIR__ . '/../..' . '/app/Filament/Resources/MessageResource/Pages/EditMessage.php',
+        'App\\Filament\\Resources\\MessageResource\\Pages\\ListMessages' => __DIR__ . '/../..' . '/app/Filament/Resources/MessageResource/Pages/ListMessages.php',
+        'App\\Filament\\Resources\\MessageResource\\Pages\\ViewMessage' => __DIR__ . '/../..' . '/app/Filament/Resources/MessageResource/Pages/ViewMessage.php',
         'App\\Filament\\Resources\\PostResource' => __DIR__ . '/../..' . '/app/Filament/Resources/PostResource.php',
         'App\\Filament\\Resources\\PostResource\\Pages\\CreatePost' => __DIR__ . '/../..' . '/app/Filament/Resources/PostResource/Pages/CreatePost.php',
         'App\\Filament\\Resources\\PostResource\\Pages\\EditPost' => __DIR__ . '/../..' . '/app/Filament/Resources/PostResource/Pages/EditPost.php',
@@ -817,10 +862,15 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'App\\Filament\\Resources\\TagResource\\Pages\\CreateTag' => __DIR__ . '/../..' . '/app/Filament/Resources/TagResource/Pages/CreateTag.php',
         'App\\Filament\\Resources\\TagResource\\Pages\\EditTag' => __DIR__ . '/../..' . '/app/Filament/Resources/TagResource/Pages/EditTag.php',
         'App\\Filament\\Resources\\TagResource\\Pages\\ListTags' => __DIR__ . '/../..' . '/app/Filament/Resources/TagResource/Pages/ListTags.php',
+        'App\\Helpers\\SlugHelper' => __DIR__ . '/../..' . '/app/Helpers/SlugHelper.php',
+        'App\\Http\\Controllers\\BlogController' => __DIR__ . '/../..' . '/app/Http/Controllers/BlogController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
+        'App\\Http\\Middleware\\CachePageOutput' => __DIR__ . '/../..' . '/app/Http/Middleware/CachePageOutput.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
+        'App\\Http\\Middleware\\HandleAjaxResponse' => __DIR__ . '/../..' . '/app/Http/Middleware/HandleAjaxResponse.php',
         'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => __DIR__ . '/../..' . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
@@ -829,6 +879,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'App\\Http\\Middleware\\ValidateSignature' => __DIR__ . '/../..' . '/app/Http/Middleware/ValidateSignature.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Livewire\\Header' => __DIR__ . '/../..' . '/app/Livewire/Header.php',
+        'App\\Models\\Message' => __DIR__ . '/../..' . '/app/Models/Message.php',
         'App\\Models\\Post' => __DIR__ . '/../..' . '/app/Models/Post.php',
         'App\\Models\\Tag' => __DIR__ . '/../..' . '/app/Models/Tag.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
@@ -838,6 +889,13 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\Filament\\AdminPanelProvider' => __DIR__ . '/../..' . '/app/Providers/Filament/AdminPanelProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'Assert\\Assert' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/Assert.php',
+        'Assert\\Assertion' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/Assertion.php',
+        'Assert\\AssertionChain' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/AssertionChain.php',
+        'Assert\\AssertionFailedException' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/AssertionFailedException.php',
+        'Assert\\InvalidArgumentException' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/InvalidArgumentException.php',
+        'Assert\\LazyAssertion' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/LazyAssertion.php',
+        'Assert\\LazyAssertionException' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/LazyAssertionException.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'BladeUI\\Heroicons\\BladeHeroiconsServiceProvider' => __DIR__ . '/..' . '/blade-ui-kit/blade-heroicons/src/BladeHeroiconsServiceProvider.php',
         'BladeUI\\Icons\\BladeIconsServiceProvider' => __DIR__ . '/..' . '/blade-ui-kit/blade-icons/src/BladeIconsServiceProvider.php',
@@ -1539,6 +1597,15 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Egulias\\EmailValidator\\Warning\\QuotedString' => __DIR__ . '/..' . '/egulias/email-validator/src/Warning/QuotedString.php',
         'Egulias\\EmailValidator\\Warning\\TLD' => __DIR__ . '/..' . '/egulias/email-validator/src/Warning/TLD.php',
         'Egulias\\EmailValidator\\Warning\\Warning' => __DIR__ . '/..' . '/egulias/email-validator/src/Warning/Warning.php',
+        'Fahlisaputra\\Minify\\Controllers\\HttpConnectionHandler' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Controllers/HttpConnectionHandler.php',
+        'Fahlisaputra\\Minify\\Helpers\\CSS' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Helpers/CSS.php',
+        'Fahlisaputra\\Minify\\Helpers\\Javascript' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Helpers/Javascript.php',
+        'Fahlisaputra\\Minify\\Helpers\\JsObfuscator' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Helpers/JsObfuscator.php',
+        'Fahlisaputra\\Minify\\Middleware\\Minifier' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Middleware/Minifier.php',
+        'Fahlisaputra\\Minify\\Middleware\\MinifyCss' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Middleware/MinifyCss.php',
+        'Fahlisaputra\\Minify\\Middleware\\MinifyHtml' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Middleware/MinifyHtml.php',
+        'Fahlisaputra\\Minify\\Middleware\\MinifyJavascript' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/Middleware/MinifyJavascript.php',
+        'Fahlisaputra\\Minify\\MinifyServiceProvider' => __DIR__ . '/..' . '/fahlisaputra/laravel-minify/src/MinifyServiceProvider.php',
         'Faker\\Calculator\\Ean' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Calculator/Ean.php',
         'Faker\\Calculator\\Iban' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Calculator/Iban.php',
         'Faker\\Calculator\\Inn' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Calculator/Inn.php',
@@ -5253,6 +5320,17 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Masterminds\\HTML5\\Serializer\\OutputRules' => __DIR__ . '/..' . '/masterminds/html5/src/HTML5/Serializer/OutputRules.php',
         'Masterminds\\HTML5\\Serializer\\RulesInterface' => __DIR__ . '/..' . '/masterminds/html5/src/HTML5/Serializer/RulesInterface.php',
         'Masterminds\\HTML5\\Serializer\\Traverser' => __DIR__ . '/..' . '/masterminds/html5/src/HTML5/Serializer/Traverser.php',
+        'MatthiasMullie\\Minify\\CSS' => __DIR__ . '/..' . '/matthiasmullie/minify/src/CSS.php',
+        'MatthiasMullie\\Minify\\Exception' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exception.php',
+        'MatthiasMullie\\Minify\\Exceptions\\BasicException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/BasicException.php',
+        'MatthiasMullie\\Minify\\Exceptions\\FileImportException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/FileImportException.php',
+        'MatthiasMullie\\Minify\\Exceptions\\IOException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/IOException.php',
+        'MatthiasMullie\\Minify\\Exceptions\\PatternMatchException' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Exceptions/PatternMatchException.php',
+        'MatthiasMullie\\Minify\\JS' => __DIR__ . '/..' . '/matthiasmullie/minify/src/JS.php',
+        'MatthiasMullie\\Minify\\Minify' => __DIR__ . '/..' . '/matthiasmullie/minify/src/Minify.php',
+        'MatthiasMullie\\PathConverter\\Converter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/Converter.php',
+        'MatthiasMullie\\PathConverter\\ConverterInterface' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/ConverterInterface.php',
+        'MatthiasMullie\\PathConverter\\NoConverter' => __DIR__ . '/..' . '/matthiasmullie/path-converter/src/NoConverter.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -5466,6 +5544,9 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Monolog\\Test\\MonologTestCase' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Test/MonologTestCase.php',
         'Monolog\\Test\\TestCase' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Test/TestCase.php',
         'Monolog\\Utils' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Utils.php',
+        'Morilog\\Jalali\\CalendarUtils' => __DIR__ . '/..' . '/morilog/jalali/src/CalendarUtils.php',
+        'Morilog\\Jalali\\Converter' => __DIR__ . '/..' . '/morilog/jalali/src/Converter.php',
+        'Morilog\\Jalali\\Jalalian' => __DIR__ . '/..' . '/morilog/jalali/src/Jalalian.php',
         'Nette\\ArgumentOutOfRangeException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
         'Nette\\DeprecatedException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
         'Nette\\DirectoryNotFoundException' => __DIR__ . '/..' . '/nette/utils/src/exceptions.php',
@@ -9020,6 +9101,34 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
+        'voku\\helper\\AbstractDomParser' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/AbstractDomParser.php',
+        'voku\\helper\\AbstractSimpleHtmlDom' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/AbstractSimpleHtmlDom.php',
+        'voku\\helper\\AbstractSimpleHtmlDomNode' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/AbstractSimpleHtmlDomNode.php',
+        'voku\\helper\\AbstractSimpleXmlDom' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/AbstractSimpleXmlDom.php',
+        'voku\\helper\\AbstractSimpleXmlDomNode' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/AbstractSimpleXmlDomNode.php',
+        'voku\\helper\\DomParserInterface' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/DomParserInterface.php',
+        'voku\\helper\\HtmlDomHelper' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/HtmlDomHelper.php',
+        'voku\\helper\\HtmlDomParser' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/HtmlDomParser.php',
+        'voku\\helper\\HtmlMin' => __DIR__ . '/..' . '/voku/html-min/src/voku/helper/HtmlMin.php',
+        'voku\\helper\\HtmlMinDomObserverInterface' => __DIR__ . '/..' . '/voku/html-min/src/voku/helper/HtmlMinDomObserverInterface.php',
+        'voku\\helper\\HtmlMinDomObserverOptimizeAttributes' => __DIR__ . '/..' . '/voku/html-min/src/voku/helper/HtmlMinDomObserverOptimizeAttributes.php',
+        'voku\\helper\\HtmlMinInterface' => __DIR__ . '/..' . '/voku/html-min/src/voku/helper/HtmlMinInterface.php',
+        'voku\\helper\\SelectorConverter' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SelectorConverter.php',
+        'voku\\helper\\SimpleHtmlAttributes' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleHtmlAttributes.php',
+        'voku\\helper\\SimpleHtmlAttributesInterface' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleHtmlAttributesInterface.php',
+        'voku\\helper\\SimpleHtmlDom' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleHtmlDom.php',
+        'voku\\helper\\SimpleHtmlDomBlank' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomBlank.php',
+        'voku\\helper\\SimpleHtmlDomInterface' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomInterface.php',
+        'voku\\helper\\SimpleHtmlDomNode' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomNode.php',
+        'voku\\helper\\SimpleHtmlDomNodeBlank' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomNodeBlank.php',
+        'voku\\helper\\SimpleHtmlDomNodeInterface' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomNodeInterface.php',
+        'voku\\helper\\SimpleXmlDom' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleXmlDom.php',
+        'voku\\helper\\SimpleXmlDomBlank' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleXmlDomBlank.php',
+        'voku\\helper\\SimpleXmlDomInterface' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleXmlDomInterface.php',
+        'voku\\helper\\SimpleXmlDomNode' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleXmlDomNode.php',
+        'voku\\helper\\SimpleXmlDomNodeBlank' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleXmlDomNodeBlank.php',
+        'voku\\helper\\SimpleXmlDomNodeInterface' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/SimpleXmlDomNodeInterface.php',
+        'voku\\helper\\XmlDomParser' => __DIR__ . '/..' . '/voku/simple_html_dom/src/voku/helper/XmlDomParser.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

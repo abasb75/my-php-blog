@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/tools/use-transition-hook/static/css/main.ae294937.css",
+    "main.js": "/tools/use-transition-hook/static/js/main.00f61329.js",
+    "static/css/377.0a2c357d.chunk.css": "/tools/use-transition-hook/static/css/377.0a2c357d.chunk.css",
+    "static/js/377.7daa4427.chunk.js": "/tools/use-transition-hook/static/js/377.7daa4427.chunk.js",
+    "static/css/974.798f92a1.chunk.css": "/tools/use-transition-hook/static/css/974.798f92a1.chunk.css",
+    "static/js/974.c45cec11.chunk.js": "/tools/use-transition-hook/static/js/974.c45cec11.chunk.js",
+    "static/js/573.f19d142e.chunk.js": "/tools/use-transition-hook/static/js/573.f19d142e.chunk.js",
+    "static/js/876.cd12e603.chunk.js": "/tools/use-transition-hook/static/js/876.cd12e603.chunk.js",
+    "static/js/139.4efd4a35.chunk.js": "/tools/use-transition-hook/static/js/139.4efd4a35.chunk.js",
+    "static/js/787.311212d6.chunk.js": "/tools/use-transition-hook/static/js/787.311212d6.chunk.js",
+    "index.html": "/tools/use-transition-hook/index.html",
+    "main.ae294937.css.map": "/tools/use-transition-hook/static/css/main.ae294937.css.map",
+    "main.00f61329.js.map": "/tools/use-transition-hook/static/js/main.00f61329.js.map",
+    "377.0a2c357d.chunk.css.map": "/tools/use-transition-hook/static/css/377.0a2c357d.chunk.css.map",
+    "377.7daa4427.chunk.js.map": "/tools/use-transition-hook/static/js/377.7daa4427.chunk.js.map",
+    "974.798f92a1.chunk.css.map": "/tools/use-transition-hook/static/css/974.798f92a1.chunk.css.map",
+    "974.c45cec11.chunk.js.map": "/tools/use-transition-hook/static/js/974.c45cec11.chunk.js.map",
+    "573.f19d142e.chunk.js.map": "/tools/use-transition-hook/static/js/573.f19d142e.chunk.js.map",
+    "876.cd12e603.chunk.js.map": "/tools/use-transition-hook/static/js/876.cd12e603.chunk.js.map",
+    "139.4efd4a35.chunk.js.map": "/tools/use-transition-hook/static/js/139.4efd4a35.chunk.js.map",
+    "787.311212d6.chunk.js.map": "/tools/use-transition-hook/static/js/787.311212d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae294937.css",
+    "static/js/main.00f61329.js"
+  ]
+}

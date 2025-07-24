@@ -83,7 +83,7 @@
             <div class="post-info">
                 <div class="info">
                     <i class="icon-clock"></i>
-                    <span>12 خرداد 1402</span>
+                    <span>{{ $post->created_at_shamsi }}</span>
                 </div>
                 <div class="info">
                 <i class="icon-user"></i>

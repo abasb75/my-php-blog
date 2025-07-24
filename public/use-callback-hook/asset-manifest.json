@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tools/use-callback-hook/static/css/main.e6c13ad2.css",
+    "main.js": "/tools/use-callback-hook/static/js/main.30ec600f.js",
+    "static/js/477.bf31514b.chunk.js": "/tools/use-callback-hook/static/js/477.bf31514b.chunk.js",
+    "static/js/731.3d5bdda0.chunk.js": "/tools/use-callback-hook/static/js/731.3d5bdda0.chunk.js",
+    "static/js/536.cf59a846.chunk.js": "/tools/use-callback-hook/static/js/536.cf59a846.chunk.js",
+    "static/js/787.c9b25d88.chunk.js": "/tools/use-callback-hook/static/js/787.c9b25d88.chunk.js",
+    "index.html": "/tools/use-callback-hook/index.html",
+    "main.e6c13ad2.css.map": "/tools/use-callback-hook/static/css/main.e6c13ad2.css.map",
+    "main.30ec600f.js.map": "/tools/use-callback-hook/static/js/main.30ec600f.js.map",
+    "477.bf31514b.chunk.js.map": "/tools/use-callback-hook/static/js/477.bf31514b.chunk.js.map",
+    "731.3d5bdda0.chunk.js.map": "/tools/use-callback-hook/static/js/731.3d5bdda0.chunk.js.map",
+    "536.cf59a846.chunk.js.map": "/tools/use-callback-hook/static/js/536.cf59a846.chunk.js.map",
+    "787.c9b25d88.chunk.js.map": "/tools/use-callback-hook/static/js/787.c9b25d88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.30ec600f.js"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tools/use-deferred-value-hook/static/css/main.e6c13ad2.css",
+    "main.js": "/tools/use-deferred-value-hook/static/js/main.2ace88e6.js",
+    "static/js/497.353db390.chunk.js": "/tools/use-deferred-value-hook/static/js/497.353db390.chunk.js",
+    "static/js/767.0f93c57a.chunk.js": "/tools/use-deferred-value-hook/static/js/767.0f93c57a.chunk.js",
+    "static/js/861.1900e1ae.chunk.js": "/tools/use-deferred-value-hook/static/js/861.1900e1ae.chunk.js",
+    "static/js/869.df516aba.chunk.js": "/tools/use-deferred-value-hook/static/js/869.df516aba.chunk.js",
+    "static/js/787.5170f458.chunk.js": "/tools/use-deferred-value-hook/static/js/787.5170f458.chunk.js",
+    "index.html": "/tools/use-deferred-value-hook/index.html",
+    "main.e6c13ad2.css.map": "/tools/use-deferred-value-hook/static/css/main.e6c13ad2.css.map",
+    "main.2ace88e6.js.map": "/tools/use-deferred-value-hook/static/js/main.2ace88e6.js.map",
+    "497.353db390.chunk.js.map": "/tools/use-deferred-value-hook/static/js/497.353db390.chunk.js.map",
+    "767.0f93c57a.chunk.js.map": "/tools/use-deferred-value-hook/static/js/767.0f93c57a.chunk.js.map",
+    "861.1900e1ae.chunk.js.map": "/tools/use-deferred-value-hook/static/js/861.1900e1ae.chunk.js.map",
+    "869.df516aba.chunk.js.map": "/tools/use-deferred-value-hook/static/js/869.df516aba.chunk.js.map",
+    "787.5170f458.chunk.js.map": "/tools/use-deferred-value-hook/static/js/787.5170f458.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2ace88e6.js"
+  ]
+}

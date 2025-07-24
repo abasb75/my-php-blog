@@ -1,0 +1,16 @@
+@import url("icon-font/style.css");
+@import url("lib/iziToast.css");
+@import url("fonts/style.css");
+@import url("styles/var/var.css");
+
+@import url("styles/reset.css");
+@import url("styles/header.css");
+@import url("styles/footer.css");
+@import url("styles/header-title.css");
+@import url("styles/header-title.css");
+@import url("styles/error.css");
+@import url("styles/spiner.css");
+
+@import url("styles/home/home.css");
+@import url("styles/blog/blog.css");
+@import url("styles/blog/post/post.css");

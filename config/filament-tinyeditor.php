@@ -33,7 +33,7 @@ return [
             'upload_directory' => null,
                 
             'custom_configs' => [
-                'extended_valid_elements' => 'iframe[src|width|height|frameborder|allow|allowfullscreen|sandbox]',
+                'extended_valid_elements' => '*[*]',
                 'external_plugins' => [
                     'iframe' => '/tinymce/iframe.js',
                 ],

@@ -6,7 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'voku\\' => array($vendorDir . '/voku/portable-ascii/src/voku'),
+    'voku\\helper\\' => array($vendorDir . '/voku/simple_html_dom/src/voku/helper'),
+    'voku\\' => array($vendorDir . '/voku/html-min/src/voku', $vendorDir . '/voku/portable-ascii/src/voku'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Tiptap\\' => array($vendorDir . '/ueberdosis/tiptap-php/src'),
@@ -76,8 +77,11 @@ return array(
     'Outerweb\\FilamentImageLibrary\\' => array($vendorDir . '/outerweb/filament-image-library/src'),
     'OpenSpout\\' => array($vendorDir . '/openspout/openspout/src'),
     'NunoMaduro\\Collision\\' => array($vendorDir . '/nunomaduro/collision/src'),
+    'Morilog\\Jalali\\' => array($vendorDir . '/morilog/jalali/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Mockery\\' => array($vendorDir . '/mockery/mockery/library/Mockery'),
+    'MatthiasMullie\\PathConverter\\' => array($vendorDir . '/matthiasmullie/path-converter/src'),
+    'MatthiasMullie\\Minify\\' => array($vendorDir . '/matthiasmullie/minify/src'),
     'Masterminds\\' => array($vendorDir . '/masterminds/html5/src'),
     'Malzariey\\FilamentLexicalEditor\\' => array($vendorDir . '/malzariey/filament-lexical-editor/src'),
     'Livewire\\' => array($vendorDir . '/livewire/livewire/src'),
@@ -114,6 +118,7 @@ return array(
     'FilamentTiptapEditor\\Tests\\' => array($vendorDir . '/awcodes/filament-tiptap-editor/tests/src'),
     'FilamentTiptapEditor\\' => array($vendorDir . '/awcodes/filament-tiptap-editor/src'),
     'Faker\\' => array($vendorDir . '/fakerphp/faker/src/Faker'),
+    'Fahlisaputra\\Minify\\' => array($vendorDir . '/fahlisaputra/laravel-minify/src'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/src'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'Doctrine\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector'),
@@ -134,7 +139,9 @@ return array(
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
     'BladeUI\\Icons\\' => array($vendorDir . '/blade-ui-kit/blade-icons/src'),
     'BladeUI\\Heroicons\\' => array($vendorDir . '/blade-ui-kit/blade-heroicons/src'),
+    'Assert\\' => array($vendorDir . '/beberlei/assert/lib/Assert'),
     'App\\' => array($baseDir . '/app', $vendorDir . '/laravel/pint/app'),
     'AnourValar\\EloquentSerialize\\' => array($vendorDir . '/anourvalar/eloquent-serialize/src'),
     'AmidEsfahani\\FilamentTinyEditor\\' => array($vendorDir . '/amidesfahani/filament-tinyeditor/src'),
+    'Abordage\\HtmlMin\\' => array($vendorDir . '/abordage/html-min/src'),
 );

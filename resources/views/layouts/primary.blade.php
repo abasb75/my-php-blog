@@ -47,10 +47,9 @@
 
         @yield('meta')
         <title>{{ $title ?? 'وب سایت شخصی عباس باقری' }}</title>
-        <link rel="stylesheet" href="/styles/app.min.css?v=3">
-         @yield('style')
+        @vite( ['resources/css/app.css'])
     </head>
-    <body class="dark">
+    <body class="{{ $_COOKIE['DARK_MODE'] ?? 'dark' }}">
         @include('layouts.spinner')
         @include('layouts.header')
         <div id="page">

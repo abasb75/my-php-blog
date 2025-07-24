@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/974.798f92a1.chunk.css","mappings":"AAAA,MACI,YAAa,CACb,SACJ,CAEA,OACI,cACJ","sources":["with-transition/style.css"],"sourcesContent":[".flex{\n    display: flex;\n    gap: .3rem;\n}\n\nbutton{\n    cursor: pointer;\n}"],"names":[],"sourceRoot":""}

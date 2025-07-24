@@ -41,6 +41,10 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+// $app->withMiddleware(function ($middleware) {
+    
+// });
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application

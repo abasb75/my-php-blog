@@ -1,0 +1,21 @@
+#post-container ul{
+    line-height: 2;
+    color: var(--gray-900);
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+    list-style-type: disc;
+    padding-right: 32px;
+}
+
+#post-container ul a{
+    color: var(--link-color);
+}
+
+.dark #post-container ul{
+    color: var(--cyan-200);
+}
+
+.dark #post-container ul b,
+.dark #post-container ul strong{
+    color: var(--cyan-500);
+}

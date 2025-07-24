@@ -10,7 +10,11 @@
         <div class="list">
             @foreach ($posts as $post)
                 <article class="item">
-                    <a href="/blog/{{ $post->id }}/{{ $post->slug }}" title="{{ $post->title }}">
+                    <a 
+                        href="/blog/{{ $post->id }}/{{ $post->slug }}" 
+                        title="{{ $post->title }}"
+                        ajax
+                    >
                         <div class="article">
                             <div class="thum-holder">
                                 <x-image-library-picture :image="Outerweb\ImageLibrary\Models\Image::find($post->thumbnail)" conversion="original" fallback-conversion="original" />
@@ -21,7 +25,7 @@
                             </div>
                             <div class="detail">
                                 <i class="icon-clock"></i>
-                                <span>{{ \Carbon\Carbon::parse($post->created_at)->toFormattedDateString() }}</span>
+                                <span>{{ $post->created_at_shamsi }}</span>
                             </div>
                         </div>
                     </a>
@@ -29,7 +33,7 @@
             @endforeach
         </div>
         <div class="button">
-            <a href="/blog">
+            <a href="/blog" ajax>
                 <span>موارد بیشتر</span>
                 <i class="icon-arrow-left"></i>
             </a>

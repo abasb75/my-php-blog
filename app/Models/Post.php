@@ -5,10 +5,12 @@ namespace App\Models;
 use App\Helpers\SlugHelper;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Morilog\Jalali\Jalalian;
 use DOMDocument;
 
 class Post extends Model
 {
+    public $timestamps = true;
     protected $fillable = [
         'title',
         'thumbnail',
@@ -23,6 +25,14 @@ class Post extends Model
     public function tags(): BelongsToMany
     {
         return $this->belongsToMany(Tag::class, 'post_tag');
+    }
+
+        
+    public function getCreatedAtShamsiAttribute(): string
+    {
+        return $this->created_at
+            ? Jalalian::fromDateTime($this->created_at)->format('d F Y')
+            : 'تاریخ موجود نیست';
     }
 
     /**

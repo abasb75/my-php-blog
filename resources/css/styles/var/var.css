@@ -1,0 +1,27 @@
+@import url("tailwind-colors.css");
+@import url("brands-color.css");
+
+body {
+    --body-bg: var(--slate-50);
+
+    --header-bg: #fff;
+    --header-color: var(--gray-900);
+    --link-color:var(--blue-500);
+    
+    --main-gradient: linear-gradient(135deg, rgba(2,7,52,1) 0%, rgba(17,131,128,1) 100%);
+    --teal: #11d8d5;
+}
+
+body.dark{
+    --body-bg: var(--slate-950);
+
+    --header-bg: var(--gray-950);
+    --header-color: var(--cyan-200);
+    --link-color:var(--yellow-200);
+
+    --main-gradient: linear-gradient(135deg,var(--teal-700) 0%, var(--teal-900) 100%);
+}
+
+body{
+    background: var(--body-bg);
+}

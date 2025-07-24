@@ -1,7 +1,9 @@
+import { contactFormSubmit } from "../home/contact-form";
+
 var xmlHttp;
 
 window.init = () => {
-    var anchors = document.querySelectorAll('a');
+    const anchors = document.querySelectorAll('a[ajax]');
     for(var i=0;i<anchors.length;i++){
         anchors[i].addEventListener('click',anchorClick)
     }
@@ -19,18 +21,7 @@ window.anchorClick = (e) => {
     }
     var url = getDomainName();
     var path = href.replace(url,"");
-    var regex = /^https?\:\/\/(abasbagheri\.ir|abasbagheri|localhost)/;
-    if(path=="/rss"){
-        externalLink(href);
-    }else if(/^\/#[a-zA-Z0-9_\-]+$/.exec(path)){
-        statementLinks(path);
-    }else if(/^\/asset\//.exec(path)){
-        externalLink(href);
-    }else if(regex.exec(href)){
-        internalLink(href);
-    }else{
-        externalLink(href);
-    }
+    internalLink(href);
 }
 
 window.statementLinks = (href) => {
@@ -60,7 +51,6 @@ window.doAjax = (href) => {
                 document.getElementById('page').innerHTML = data.page;
                 document.title = data.title;
                 setTimeout(()=>{
-                    hideSpiner();
                     init();
                     windowLoadEvents();
                     var url = getDomainName();
@@ -72,7 +62,10 @@ window.doAjax = (href) => {
                             top: 0
                         })
                     }
-                },1000);
+                    setTimeout(()=>{
+                        hideSpiner();
+                    },1000)
+                },1);
             }
         }catch{
             hideSpiner();
@@ -106,7 +99,7 @@ window.externalLink = (href) => {
 
 window.popstate = (e)=>{
     var href = location.href;
-    var regex = /^https?\:\/\/(abasbagheri\.ir|abasbagheri|localhost)/;
+    var regex = /^https?\:\/\/(abasbagheri\.ir|abasbagheri|localhost|\/)/;
     if(/\/rss$/.exec(href)){
         externalLink(href);
     }else if(regex.exec(href)){
@@ -118,11 +111,12 @@ window.popstate = (e)=>{
 
 window.getDomainName = () => {
     var protocol = window.location.protocol;
-    var hostname = window.location.hostname;
+    var hostname = window.location.host;
     return protocol+"//"+hostname;
 }
 
 window.windowLoadEvents = () => {
+    console.log('xxx');
     runParticleJS && runParticleJS();
     initialScrollSpinner && initialScrollSpinner();
     initialGoTop && initialGoTop();

@@ -1,19 +1,19 @@
-function contactFormSubmit(){
-    var contactFormSubmit = document.getElementById('contact-form-submit');
-    if(contactFormSubmit){
-        contactFormSubmit.addEventListener('click',uploadMessage);
+const contactFormSubmit = () => {
+    const contactFormSubmitBtn = document.getElementById('contact-form-submit');
+    if(contactFormSubmitBtn){
+        contactFormSubmitBtn.addEventListener('click',uploadMessage);
     }
 }
 
-window.addEventListener('load',contactFormSubmit);
+window.addEventListener('load',window.contactFormSubmit);
 
-function formReset(e){
+const formReset = (e) => {
     document.getElementById('name-input').value = "";
     document.getElementById('contact-way-input').value = "";
     document.getElementById('message-input').value = "";
 }
 
-function uploadMessage(e){
+const uploadMessage = (e) => {
     e.preventDefault();
     var name = document.getElementById('name-input').value;
     var contactWay = document.getElementById('contact-way-input').value;
@@ -77,4 +77,10 @@ function uploadMessage(e){
 
     xhttp.open('POST','/api/message/add',true);
     xhttp.send(formData);
+}
+
+export {
+    contactFormSubmit,
+    formReset,
+    uploadMessage,
 }

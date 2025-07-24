@@ -25,7 +25,11 @@
         <section id="blog-section">
             @foreach ($posts as $post)
                 <article class="item">
-                    <a href="/blog/{{ $post->id }}/{{ $post->slug ?? App\Helpers\SlugHelper::makeUniqueSlug($post->title) }}" title="{{ $post->title }}">
+                    <a 
+                        href="/blog/{{ $post->id }}/{{ $post->slug ?? App\Helpers\SlugHelper::makeUniqueSlug($post->title) }}" 
+                        title="{{ $post->title }}"
+                        ajax
+                    >
                         <div class="article">
                             <div class="thum-holder">
                                 <x-image-library-picture :image="Outerweb\ImageLibrary\Models\Image::find($post->thumbnail)" conversion="original" fallback-conversion="original" />
@@ -36,7 +40,7 @@
                             </div>
                             <div class="detail">
                                 <i class="icon-clock"></i>
-                                <span>{{ \Carbon\Carbon::parse($post->created_at)->toFormattedDateString() }}</span>
+                                <span>{{ $post->created_at_shamsi }}</span>
                             </div>
                         </div>
                     </a>
