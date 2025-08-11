@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Morilog\Jalali\Jalalian;
 use DOMDocument;
+use Illuminate\Support\Facades\File;
 
 class Post extends Model
 {
@@ -27,7 +28,6 @@ class Post extends Model
         return $this->belongsToMany(Tag::class, 'post_tag');
     }
 
-        
     public function getCreatedAtShamsiAttribute(): string
     {
         return $this->created_at
@@ -35,28 +35,13 @@ class Post extends Model
             : 'تاریخ موجود نیست';
     }
 
-    /**
-     * محاسبه زمان مطالعه بر اساس محتوای body
-     *
-     * @param string $content
-     * @return int زمان مطالعه به دقیقه
-     */
     protected function calculateReadingTime($content): int
     {
-        // تبدیل HTML به متن ساده
         $cleanContent = strip_tags($content);
-        // شمارش کلمات
         $wordCount = str_word_count($cleanContent);
-        // محاسبه زمان مطالعه با فرض 180 کلمه در دقیقه (برای فارسی)
         return (int) ceil($wordCount / 150);
     }
 
-    /**
-     * تنظیم ویژگی sandbox برای تمام تگ‌های iframe در محتوای body
-     *
-     * @param string $content
-     * @return string محتوای اصلاح‌شده
-     */
     protected function setIframeSandbox($content): string
     {
         if (empty($content)) {
@@ -88,9 +73,12 @@ class Post extends Model
             $post->slug = SlugHelper::makeUniqueSlug($post->title);
             $post->body = $post->setIframeSandbox($post->body);
             $post->reading_time = $post->calculateReadingTime($post->body);
+
+            // حذف کش‌های مربوط به لیست پست‌ها
+            static::clearBlogListCache();
         });
 
-        static::updating( function ($post) {
+        static::updating(function ($post) {
             if ($post->isDirty('title') || !$post->slug) {
                 $post->slug = SlugHelper::makeUniqueSlug($post->title, self::class, $post->id);
             }
@@ -102,6 +90,54 @@ class Post extends Model
             if ($post->isDirty('body') || $post->reading_time === 0) {
                 $post->reading_time = $post->calculateReadingTime($post->body);
             }
+
+            // حذف کش‌های مربوط به پست خاص و لیست پست‌ها
+            static::clearPostCache($post->id);
+            static::clearBlogListCache();
+            
         });
+
+        static::deleting(function ($post) {
+            static::clearPostCache($post->id);
+            static::clearBlogListCache();
+        });
+    }
+
+    /**
+     * حذف کش‌های مربوط به لیست پست‌ها (blog و posts)
+     */
+    protected static function clearBlogListCache()
+    {
+        $cacheDir = storage_path('app/cache/pages');
+        $routes = ['home', 'blog', 'posts', 'blog.paginated', 'posts.paginated'];
+
+        foreach ($routes as $route) {
+            $files = File::glob("{$cacheDir}/{$route}*");
+
+            foreach ($files as $file) {
+                // فقط فایل‌هایی که شامل id= یا slug= نیستند حذف شوند
+                if (!preg_match('/(id=|slug=)/', $file)) {
+                    File::delete($file);
+                }
+            }
+        }
+    }
+
+    /**
+     * حذف کش‌های مربوط به یک پست خاص
+     *
+     * @param int $postId
+     */
+    protected static function clearPostCache($postId)
+    {
+        $cacheDir = storage_path('app/cache/pages');
+        $routes = ['blog.single', 'blog.slug', 'posts.single', 'posts.slug', 'post', 'post.slug', 'post.short'];
+
+        foreach ($routes as $route) {
+            $files = File::glob("{$cacheDir}/{$route}?*id={$postId}*");
+            foreach ($files as $file) {
+                File::delete($file);
+            }
+        }
     }
 }
