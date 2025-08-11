@@ -26,7 +26,7 @@ class Kernel extends HttpKernel
         // Middleware to minify Javascript
         \Fahlisaputra\Minify\Middleware\MinifyJavascript::class,
         // Middleware to minify Blade
-        \Fahlisaputra\Minify\Middleware\MinifyHtml::class,
+        // \Fahlisaputra\Minify\Middleware\MinifyHtml::class,
     ];
 
     /**
