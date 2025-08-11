@@ -8,7 +8,6 @@ import './blog/post/image';
 import './blog/post/simple-code';
 import './darkmode';
 import './goto';
-import './iziToast';
 import './mobile-menu';
 import './goto';
 import './spa/init';

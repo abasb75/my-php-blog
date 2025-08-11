@@ -1,10 +1,5 @@
 @extends('layouts.primary')
 
-@section('meta')
-
-    
-@endsection
-
 @section('content')
     <div id="home">
         @include('home.welcome')

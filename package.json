@@ -17,6 +17,7 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
+        "izitoast": "^1.4.0",
         "tsparticles": "^3.8.1"
     }
 }

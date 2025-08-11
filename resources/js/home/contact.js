@@ -1,3 +1,5 @@
+import iziToast from "izitoast";
+
 window.copytoclip = (el) => {
     var text_copy = el.parentElement.children[1].children[0].getAttribute('href');
     text_copy = text_copy.replace('tel:','');

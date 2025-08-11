@@ -9,6 +9,10 @@ class CachePageOutput
 {
     public function handle($request, Closure $next)
     {
+        if(env('APP_DEBUG')){
+            return $next($request);
+        }
+        
         $isAjax = $request->ajax();
        
         $routeName = Route::currentRouteName();

@@ -1,4 +1,5 @@
 import { contactFormSubmit } from "../home/contact-form";
+import iziToast from "izitoast";
 
 var xmlHttp;
 
