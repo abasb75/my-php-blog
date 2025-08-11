@@ -29,28 +29,29 @@ class Handler extends ExceptionHandler
         });
     }
 
-    public function render($request, $exception)
-    {
-        // بررسی اگر خطا از نوع HTTP باشد
-        if ($exception instanceof HttpExceptionInterface) {
-            $code = $exception->getStatusCode();
-            $title = $this->getErrorTitle($code);
-            $description = $this->getErrorDescription($code);
+    // public function render($request, $exception)
+    // {
+        
+    //     // بررسی اگر خطا از نوع HTTP باشد
+    //     if ($exception instanceof HttpExceptionInterface) {
+    //         $code = $exception->getStatusCode();
+    //         $title = $this->getErrorTitle($code);
+    //         $description = $this->getErrorDescription($code);
 
-            return response()->view('error', [
-                'errorCode' => $code,
-                'title' => $title,
-                'description' => $description,
-            ], $code);
-        }
+    //         return response()->view('error', [
+    //             'errorCode' => $code,
+    //             'title' => $title,
+    //             'description' => $description,
+    //         ], $code);
+    //     }
 
-        // برای خطاهای غیر HTTP (مثل خطاهای سرور 500)
-        return response()->view('error', [
-            'errorCode' => 500,
-            'title' => 'خطای سرور',
-            'description' => 'متأسفیم، مشکلی در سرور رخ داده است. لطفاً بعداً تلاش کنید.'
-        ], 500);
-    }
+    //     // برای خطاهای غیر HTTP (مثل خطاهای سرور 500)
+    //     return response()->view('error', [
+    //         'errorCode' => 500,
+    //         'title' => 'خطای سرور',
+    //         'description' => 'متأسفیم، مشکلی در سرور رخ داده است. لطفاً بعداً تلاش کنید.'
+    //     ], 500);
+    // }
 
     
     private function getErrorTitle($code): string

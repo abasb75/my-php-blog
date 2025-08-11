@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ToolsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,6 +34,8 @@ Route::middleware(['cache.pages','ajax-response'])
         Route::get('/post/{id}',[BlogController::class,'single'])->name('post');
         Route::get('/post/{id}/{slug}',[BlogController::class,'single'])->name('post.slug');
         Route::get('/p/{id}',[BlogController::class,'single'])->name('post.short');
+
+        Route::get('/useful-tools',[ToolsController::class,'index'])->name('useful-tools');
         
     });
 

@@ -6,7 +6,7 @@
         <div class="footer-div">
             <ul>
                 <li>
-                    <a href="https://ictroshd.sums.ac.ir/page-ITIC/fa/171/form/pId65980" target="_blank">تیوان شیراز</a>
+                    <a href="https://ictroshd.sums.ac.ir/sherekat-tivan" target="_blank">تیوان شیراز</a>
                 </li>
                 <li>• </li>
                 <li>

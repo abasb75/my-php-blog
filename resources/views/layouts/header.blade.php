@@ -13,32 +13,32 @@
                 <div class="top-space"></div>
                 <ul>
                     <li>
-                        <a href="/" title="صفحه اصلی" ajax>
+                        <a href="{{ route('home') }}" title="صفحه اصلی" ajax>
                             <i class="icon-home"></i><span>خانه</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/resume" title="رزومه عباس باقری" ajax>
+                        <a href="{{ route('resume') }}" title="رزومه عباس باقری" ajax>
                             <i class="icon-profile"></i><span>رزومه</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/contact" title="راه‌های ارتباطی با عباس باقری" ajax>
+                        <a href="{{ route('contact') }}" title="راه‌های ارتباطی با عباس باقری" ajax>
                             <i class="icon-phone"></i>
                             <span>ارتباط</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/blog" title="نوشته‌های عباس باقری" ajax>
+                        <a href="{{ route('blog') }}" title="نوشته‌های عباس باقری" ajax>
                             <i class="icon-feather"></i>
                             <span>نوشته‌ها</span>
                         </a>
                     </li>
-                    <!-- <li>
-                        <a href="/work-samples" title="نمونه کارهای عباس باقری">
-                            <i class="icon-folder"></i><span>نمونه‌کارها</span>
+                    <li>
+                        <a href="{{ route('useful-tools') }}" title="ابزارهای کاربردی عباس باقری">
+                            <i class="icon-folder"></i><span>ابزارهای کاربردی</span>
                         </a>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
         </nav>
